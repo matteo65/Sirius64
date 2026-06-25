@@ -1,4 +1,4 @@
-# Mizar64 PRNG
+# Sirius64 PRNG
 Sirius64 is a ultra-fast, minimalist, robust pseudo-random number generator (PRNG) designed for high-performance applications, simulations, and games. 
 
 ```C
