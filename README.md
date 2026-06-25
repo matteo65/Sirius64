@@ -10,6 +10,9 @@ uint64_t sirius64(uint64_t *state)
 	return 0x9E3779B97F4A7C15ull * (z ^ (z >> 17));
 }
 ```
+The arithmetic is very simple; the state follows the well-known Weyl Sequence using the famous Golden Ratio constant; state management is therefore the same as SplitMix64 and similar to the PGC family of PRNGs, which instead use an LCG.
+The real difference compared to SplitMix64 is in the random number generation: SplitMix64 "mixes" the bits and never produces a duplicate value, so one could even argue that it is a true PRNG, while Sirius64 performs operations that also generate duplicate numbers.
+Note that in the second operation on z, the constant 0x9E3779B97F4A7BB9 was used, which is "almost" the Golden Ratio; it is the largest prime number less than the Golden Ratio; this constant allows the lower part of the output to be broken to avoid resonating with the other operations.
 
 ## Features
 **Period**: $2^{64}$  
