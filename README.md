@@ -18,7 +18,7 @@ Note that in the second operation on z, the constant 0x9E3779B97F4A7BB9 was used
 **Period**: $2^{64}$  
 **State**: 64 bit  
 **Output**: 64 bit  
-**Seed**: all 64-bit values ​​except 0  
+**Seed**: all 64-bit values 
 
 ## SmokeRand v.0.47-gcc-linux Tests
 
