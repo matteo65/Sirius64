@@ -16,3 +16,9 @@ uint64_t sirius64(uint64_t *state)
 **State**: 64 bit  
 **Output**: 64 bit  
 **Seed**: all 64-bit values ​​except 0  
+
+## SmokeRand v.0.47-gcc-linux Tests
+
+## PractRand v.0.96 Tests
+
+## TestU01 v.1.2.3 Tests
