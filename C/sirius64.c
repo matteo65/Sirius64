@@ -15,8 +15,8 @@
 
 uint64_t sirius64(uint64_t *state) 
 {
-	uint64_t z = (*state += 0x9E3779B97F4A7C15ull);
-	z = 0x9E3779B97F4A7BB9ull * (z ^ (z >> 17));
+	uint64_t z = (*state += 0x9e3779b97f4a7c15ull);
+	z = 0x9e3779b97f4a7c15ull * (z ^ (z >> 17));
 	z = (z << 32) | (z >> 32);
-	return 0x9E3779B97F4A7C15ull * (z ^ (z >> 17));
+	return 0x9e3779b97f4a7c15ull * ((*state) ^ z ^ (z >> 17));
 }
