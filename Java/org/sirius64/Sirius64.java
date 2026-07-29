@@ -21,9 +21,9 @@ public class Sirius64 {
 	
 	public long next() {
 	    long z = (state += 0x9e3779b97f4a7c15L);
-		z = 0x9E3779B97F4A7BB9L * (z ^ (z >>> 17));
+		z = 0x9e3779b97f4a7c15L * (z ^ (z >>> 17));
 		z = (z << 32) | (z >>> 32);
-		return 0x9e3779b97f4a7c15L * (z ^ (z >>> 17));
+		return 0x9e3779b97f4a7c15L * (state ^ z ^ (z >>> 17));
 	}
 	
 }
