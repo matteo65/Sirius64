@@ -27,6 +27,7 @@ The **broad campaign** provides extensive seed coverage, while the **deep campai
 - 200 independent `RNG_test` runs.
 - Each run covered the range from **1 GB to 1 TB**.
 - Designed to evaluate consistency across a large number of initial states and seeds.
+- Report available on 
 
 Total PractRand reports: 200  
 Reports without anomalies: 90  
