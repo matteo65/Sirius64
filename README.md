@@ -126,6 +126,8 @@ This table displays the breakdown of p-values ​​close to 1 (top) and close t
 |-------|------|---------|
 |91|66|**157**|
 
+**No reproducible weakness was observed in this campaign.**
+
 ## Deep Campaign
 - 10 independent `RNG_test` runs.
 - Each run covered the range from **1 GB to 64 TB**.
