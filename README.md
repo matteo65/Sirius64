@@ -20,7 +20,7 @@ uint64_t sirius64(uint64_t *state)
 
 ## PractRand v.0.96 Tests
 
-Two complementary PractRand test campaigns were performed using independently generated random seeds.
+Two complementary PractRand test campaigns were performed using independently generated random seeds.  
 The **broad campaign** provides extensive seed coverage, while the **deep campaign** provides substantial testing depth. Together, these approaches assess both cross-seed robustness and long-range statistical behavior.
 
 ## Broad Campaign
@@ -28,11 +28,11 @@ The **broad campaign** provides extensive seed coverage, while the **deep campai
 - Each run covered the range from **1 GB to 1 TB**.
 - Designed to evaluate consistency across a large number of initial states and seeds.
 
-Total PractRand reports: 200
-Reports without anomalies: 90
-Reports with anomalies: 110
-Total Test Stages: 2200
-Total Tests: 646200
+Total PractRand reports: 200  
+Reports without anomalies: 90  
+Reports with anomalies: 110  
+Total Test Stages: 2200  
+Total Tests: 646200  
 
 ### Anomaly Counting
 |Anomaly|    #| Percentage|Min p-value|Max p-value|
