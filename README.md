@@ -27,7 +27,7 @@ The **broad campaign** provides extensive seed coverage, while the **deep campai
 - 200 independent `RNG_test` runs.
 - Each run covered the range from **1 GB to 1 TB**.
 - Designed to evaluate consistency across a large number of initial states and seeds.
-- Report available on 
+- Report available on [test_practrand/practrand_test.txt](https://github.com/matteo65/Sirius64/blob/main/test_practrand/practrand_test.txt)
 
 Total PractRand reports: 200  
 Reports without anomalies: 90  
