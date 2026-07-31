@@ -21,7 +21,8 @@ uint64_t sirius64(uint64_t *state)
 ## PractRand v.0.96 Tests
 
 Two complementary PractRand test campaigns were performed using independently generated random seeds.  
-The **broad campaign** provides extensive seed coverage, while the **deep campaign** provides substantial testing depth. Together, these approaches assess both cross-seed robustness and long-range statistical behavior.
+The **broad campaign** provides extensive seed coverage, while the **deep campaign** provides substantial testing depth.  
+Together, these approaches assess both cross-seed robustness and long-range statistical behavior.
 
 ## Broad Campaign
 - 200 independent `RNG_test` runs.
