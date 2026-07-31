@@ -64,7 +64,8 @@ Total Tests: 646200
 
 ### Anomaly Ranking
 <details>
-  <summary><b>Show🔽</b></summary>
+  <summary><b>Show</b></summary>
+
 	
 |Anomaly|    #|
 |-------|-----|
@@ -123,6 +124,7 @@ Total Tests: 646200
 |[Low16/64]BCFN(2+0,13-1U)|1|
 |[Low16/64]BCFN(2+1,13-2U)|1|
 |**Total**|**157**|
+
 
 </details>
 
