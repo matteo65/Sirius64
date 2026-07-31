@@ -63,6 +63,8 @@ Total Tests: 646200
 |**Total**|**147**|**9**|**1**|**0**|**0**|**157**|
 
 ### Anomaly Ranking
+<details>
+  <summary><b>Show🔽/b></summary>
 |Anomaly|    #|
 |-------|-----|
 |[Low4/64]DC6-9x1Bytes-1|16|
@@ -120,6 +122,10 @@ Total Tests: 646200
 |[Low16/64]BCFN(2+0,13-1U)|1|
 |[Low16/64]BCFN(2+1,13-2U)|1|
 |**Total**|**157**|
+</details>
+
+
+
 
 ### Top/Bottom p-value distribuition of anomalies
 This table displays the breakdown of p-values ​​close to 1 (top) and close to 0 (bottom); in an ideal uniform distribution the values ​​should be equal.  
