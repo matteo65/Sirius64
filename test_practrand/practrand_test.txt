@@ -1,4 +1,4 @@
-00 sirius64gen 2190535572836008786
+00 sirius64 seed = 2190535572836008786
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -48,7 +48,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 10495 seconds
   no anomalies in 354 test result(s)
 
-01 sirius64gen 1571394802793958795
+01 sirius64 seed = 1571394802793958795
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -100,7 +100,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 10431 seconds
   no anomalies in 354 test result(s)
 
-02 sirius64gen 5694401717162044163
+02 sirius64 seed = 5694401717162044163
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -152,7 +152,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 10495 seconds
   no anomalies in 354 test result(s)
 
-03 sirius64gen 11315104355634834289
+03 sirius64 seed = 11315104355634834289
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -206,7 +206,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 10849 seconds
   no anomalies in 354 test result(s)
 
-04 sirius64gen 8793475738398360921
+04 sirius64 seed = 8793475738398360921
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -256,7 +256,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 10790 seconds
   no anomalies in 354 test result(s)
 
-05 sirius64gen 1928900564852380485
+05 sirius64 seed = 1928900564852380485
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -308,7 +308,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 10638 seconds
   no anomalies in 354 test result(s)
 
-06 sirius64gen 1571942901737733737
+06 sirius64 seed = 1571942901737733737
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -362,7 +362,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 10698 seconds
   no anomalies in 354 test result(s)
 
-07 sirius64gen 1647279155148409759
+07 sirius64 seed = 1647279155148409759
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -412,7 +412,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 10778 seconds
   no anomalies in 354 test result(s)
 
-08 sirius64gen 5608613249104864143
+08 sirius64 seed = 5608613249104864143
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -464,7 +464,7 @@ length= 1 terabyte (2^40 bytes), time= 10719 seconds
   [Low1/64]DC6-9x1Bytes-1           R=  -5.3  p =1-1.6e-3   unusual          
   ...and 353 test result(s) without anomalies
 
-09 sirius64gen 6243697391568169047
+09 sirius64 seed = 6243697391568169047
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -514,7 +514,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 10570 seconds
   no anomalies in 354 test result(s)
 
-10 sirius64gen 1286314774298556105
+10 sirius64 seed = 1286314774298556105
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -566,7 +566,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 10536 seconds
   no anomalies in 354 test result(s)
 
-11 sirius64gen 7581158411811954198
+11 sirius64 seed = 7581158411811954198
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -618,7 +618,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 10351 seconds
   no anomalies in 354 test result(s)
 
-12 sirius64gen 5979936954212068336
+12 sirius64 seed = 5979936954212068336
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -668,7 +668,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 10447 seconds
   no anomalies in 354 test result(s)
 
-13 sirius64gen 5058052450217200911
+13 sirius64 seed = 5058052450217200911
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -718,7 +718,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 10544 seconds
   no anomalies in 354 test result(s)
 
-14 sirius64gen 11524033396835071982
+14 sirius64 seed = 11524033396835071982
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -768,7 +768,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 10305 seconds
   no anomalies in 354 test result(s)
 
-15 sirius64gen 5009040491128496961
+15 sirius64 seed = 5009040491128496961
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -820,7 +820,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 10242 seconds
   no anomalies in 354 test result(s)
 
-16 sirius64gen 1148964481876713655
+16 sirius64 seed = 1148964481876713655
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -872,7 +872,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 10400 seconds
   no anomalies in 354 test result(s)
 
-17 sirius64gen 12966763959967560168
+17 sirius64 seed = 12966763959967560168
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -924,7 +924,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 10451 seconds
   no anomalies in 354 test result(s)
 
-18 sirius64gen 11735900232715841171
+18 sirius64 seed = 11735900232715841171
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -974,7 +974,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 10254 seconds
   no anomalies in 354 test result(s)
 
-19 sirius64gen 10606440574777629056
+19 sirius64 seed = 10606440574777629056
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -1027,7 +1027,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 10338 seconds
   no anomalies in 354 test result(s)
 
-20 sirius64gen 9524190362131006172
+20 sirius64 seed = 9524190362131006172
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -1077,7 +1077,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 10198 seconds
   no anomalies in 354 test result(s)
 
-21 sirius64gen 6227712037082468102
+21 sirius64 seed = 6227712037082468102
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -1131,7 +1131,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 10243 seconds
   no anomalies in 354 test result(s)
 
-22 sirius64gen 16895091810128885735
+22 sirius64 seed = 16895091810128885735
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -1181,7 +1181,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 10339 seconds
   no anomalies in 354 test result(s)
 
-23 sirius64gen 13352919759859911708
+23 sirius64 seed = 13352919759859911708
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -1231,7 +1231,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 10510 seconds
   no anomalies in 354 test result(s)
 
-24 sirius64gen 12559810550291033487
+24 sirius64 seed = 12559810550291033487
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -1283,7 +1283,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 10267 seconds
   no anomalies in 354 test result(s)
 
-25 sirius64gen 3803365391844905844
+25 sirius64 seed = 3803365391844905844
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -1335,7 +1335,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 10250 seconds
   no anomalies in 354 test result(s)
 
-26 sirius64gen 862720763699398628
+26 sirius64 seed = 862720763699398628
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -1390,7 +1390,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 10896 seconds
   no anomalies in 354 test result(s)
 
-27 sirius64gen 1880015351835544164
+27 sirius64 seed = 1880015351835544164
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -1440,7 +1440,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 10767 seconds
   no anomalies in 354 test result(s)
 
-28 sirius64gen 990367657854890639
+28 sirius64 seed = 990367657854890639
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -1490,7 +1490,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 10866 seconds
   no anomalies in 354 test result(s)
 
-29 sirius64gen 11905885572665514055
+29 sirius64 seed = 11905885572665514055
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -1540,7 +1540,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 10761 seconds
   no anomalies in 354 test result(s)
 
-30 sirius64gen 17606113960137994916
+30 sirius64 seed = 17606113960137994916
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -1590,7 +1590,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 10837 seconds
   no anomalies in 354 test result(s)
 
-31 sirius64gen 3781450784057575078
+31 sirius64 seed = 3781450784057575078
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -1642,7 +1642,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 10840 seconds
   no anomalies in 354 test result(s)
 
-32 sirius64gen 15544579307791385364
+32 sirius64 seed = 15544579307791385364
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -1694,7 +1694,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 10923 seconds
   no anomalies in 354 test result(s)
 
-33 sirius64gen 6165876559447415790
+33 sirius64 seed = 6165876559447415790
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -1746,7 +1746,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 10925 seconds
   no anomalies in 354 test result(s)
 
-34 sirius64gen 7013610427008152489
+34 sirius64 seed = 7013610427008152489
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -1800,7 +1800,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 10904 seconds
   no anomalies in 354 test result(s)
 
-35 sirius64gen 8512425726898808449
+35 sirius64 seed = 8512425726898808449
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -1850,7 +1850,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 10968 seconds
   no anomalies in 354 test result(s)
 
-36 sirius64gen 5682163908042239137
+36 sirius64 seed = 5682163908042239137
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -1900,7 +1900,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 10936 seconds
   no anomalies in 354 test result(s)
 
-37 sirius64gen 501792968107909043
+37 sirius64 seed = 501792968107909043
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -1954,7 +1954,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 10917 seconds
   no anomalies in 354 test result(s)
 
-38 sirius64gen 10481803319065754151
+38 sirius64 seed = 10481803319065754151
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -2013,7 +2013,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 10763 seconds
   no anomalies in 354 test result(s)
 
-39 sirius64gen 5180085035566714833
+39 sirius64 seed = 5180085035566714833
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -2067,7 +2067,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 10781 seconds
   no anomalies in 354 test result(s)
 
-40 sirius64gen 3040137775834144162
+40 sirius64 seed = 3040137775834144162
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -2119,7 +2119,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 10822 seconds
   no anomalies in 354 test result(s)
 
-41 sirius64gen 4329273418637287005
+41 sirius64 seed = 4329273418637287005
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -2171,7 +2171,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 10816 seconds
   no anomalies in 354 test result(s)
 
-42 sirius64gen 1555080143021842923
+42 sirius64 seed = 1555080143021842923
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -2225,7 +2225,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 10883 seconds
   no anomalies in 354 test result(s)
 
-43 sirius64gen 12823304337775617610
+43 sirius64 seed = 12823304337775617610
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -2275,7 +2275,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 10882 seconds
   no anomalies in 354 test result(s)
 
-44 sirius64gen 7895250965541090858
+44 sirius64 seed = 7895250965541090858
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -2325,7 +2325,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 11268 seconds
   no anomalies in 354 test result(s)
 
-45 sirius64gen 14245459590243497949
+45 sirius64 seed = 14245459590243497949
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -2375,7 +2375,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 11151 seconds
   no anomalies in 354 test result(s)
 
-46 sirius64gen 5048523373788736944
+46 sirius64 seed = 5048523373788736944
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -2425,7 +2425,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 11390 seconds
   no anomalies in 354 test result(s)
 
-47 sirius64gen 11891911445796846419
+47 sirius64 seed = 11891911445796846419
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -2477,7 +2477,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 11428 seconds
   no anomalies in 354 test result(s)
 
-48 sirius64gen 1470087247334555664
+48 sirius64 seed = 1470087247334555664
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -2529,7 +2529,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 9741 seconds
   no anomalies in 354 test result(s)
 
-49 sirius64gen 9228185147765418373
+49 sirius64 seed = 9228185147765418373
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -2585,7 +2585,7 @@ length= 1 terabyte (2^40 bytes), time= 9777 seconds
   [Low1/64]Gap-16:B                 R=  +4.8  p =  4.8e-4   unusual          
   ...and 353 test result(s) without anomalies
 
-50 sirius64gen 7148691555069458340
+50 sirius64 seed = 7148691555069458340
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -2635,7 +2635,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 9853 seconds
   no anomalies in 354 test result(s)
 
-51 sirius64gen 10805928272354173211
+51 sirius64 seed = 10805928272354173211
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -2689,7 +2689,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 10354 seconds
   no anomalies in 354 test result(s)
 
-52 sirius64gen 12087635082127855850
+52 sirius64 seed = 12087635082127855850
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -2739,7 +2739,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 10459 seconds
   no anomalies in 354 test result(s)
 
-53 sirius64gen 502769535799878897
+53 sirius64 seed = 502769535799878897
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -2791,7 +2791,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 10327 seconds
   no anomalies in 354 test result(s)
 
-54 sirius64gen 8258339836770909517
+54 sirius64 seed = 8258339836770909517
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -2843,7 +2843,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 10351 seconds
   no anomalies in 354 test result(s)
 
-55 sirius64gen 6469383608407195063
+55 sirius64 seed = 6469383608407195063
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -2895,7 +2895,7 @@ length= 1 terabyte (2^40 bytes), time= 10437 seconds
   [Low16/64]BCFN(2+2,13-0U)         R=  +9.0  p =  2.3e-4   unusual          
   ...and 353 test result(s) without anomalies
 
-56 sirius64gen 3694042385404111051
+56 sirius64 seed = 3694042385404111051
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -2945,7 +2945,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 10487 seconds
   no anomalies in 354 test result(s)
 
-57 sirius64gen 18122354880473439886
+57 sirius64 seed = 18122354880473439886
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -2995,7 +2995,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 10276 seconds
   no anomalies in 354 test result(s)
 
-58 sirius64gen 897252813934975432
+58 sirius64 seed = 897252813934975432
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -3047,7 +3047,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 10198 seconds
   no anomalies in 354 test result(s)
 
-59 sirius64gen 6117980777936858254
+59 sirius64 seed = 6117980777936858254
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -3101,7 +3101,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 10150 seconds
   no anomalies in 354 test result(s)
 
-60 sirius64gen 16489837028710110372
+60 sirius64 seed = 16489837028710110372
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -3151,7 +3151,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 10118 seconds
   no anomalies in 354 test result(s)
 
-61 sirius64gen 14647703643478991464
+61 sirius64 seed = 14647703643478991464
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -3203,7 +3203,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 10162 seconds
   no anomalies in 354 test result(s)
 
-62 sirius64gen 359284319033493509
+62 sirius64 seed = 359284319033493509
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -3253,7 +3253,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 10015 seconds
   no anomalies in 354 test result(s)
 
-63 sirius64gen 10619924399744603055
+63 sirius64 seed = 10619924399744603055
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -3303,7 +3303,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 10061 seconds
   no anomalies in 354 test result(s)
 
-64 sirius64gen 3384151087176575974
+64 sirius64 seed = 3384151087176575974
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -3357,7 +3357,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 10106 seconds
   no anomalies in 354 test result(s)
 
-65 sirius64gen 1336562545919303630
+65 sirius64 seed = 1336562545919303630
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -3407,7 +3407,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 10072 seconds
   no anomalies in 354 test result(s)
 
-66 sirius64gen 7404124066501060646
+66 sirius64 seed = 7404124066501060646
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -3461,7 +3461,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 10124 seconds
   no anomalies in 354 test result(s)
 
-67 sirius64gen 15621346107016055005
+67 sirius64 seed = 15621346107016055005
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -3511,7 +3511,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 10378 seconds
   no anomalies in 354 test result(s)
 
-68 sirius64gen 4596395711517485497
+68 sirius64 seed = 4596395711517485497
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -3561,7 +3561,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 10918 seconds
   no anomalies in 354 test result(s)
 
-69 sirius64gen 3232727193519618301
+69 sirius64 seed = 3232727193519618301
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -3613,7 +3613,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 10560 seconds
   no anomalies in 354 test result(s)
 
-70 sirius64gen 7349397946946585682
+70 sirius64 seed = 7349397946946585682
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -3665,7 +3665,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 10330 seconds
   no anomalies in 354 test result(s)
 
-71 sirius64gen 15101940566339059732
+71 sirius64 seed = 15101940566339059732
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -3715,7 +3715,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 10273 seconds
   no anomalies in 354 test result(s)
 
-72 sirius64gen 4790534327734849298
+72 sirius64 seed = 4790534327734849298
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -3765,7 +3765,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 10312 seconds
   no anomalies in 354 test result(s)
 
-73 sirius64gen 16870495732546670808
+73 sirius64 seed = 16870495732546670808
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -3817,7 +3817,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 10336 seconds
   no anomalies in 354 test result(s)
 
-74 sirius64gen 10498567158220864668
+74 sirius64 seed = 10498567158220864668
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -3870,7 +3870,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 10387 seconds
   no anomalies in 354 test result(s)
 
-75 sirius64gen 16262501371293024501
+75 sirius64 seed = 16262501371293024501
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -3920,7 +3920,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 10289 seconds
   no anomalies in 354 test result(s)
 
-76 sirius64gen 6698579918437930928
+76 sirius64 seed = 6698579918437930928
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -3970,7 +3970,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 10341 seconds
   no anomalies in 354 test result(s)
 
-77 sirius64gen 15408402337849375582
+77 sirius64 seed = 15408402337849375582
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -4022,7 +4022,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 10331 seconds
   no anomalies in 354 test result(s)
 
-78 sirius64gen 6972413577077337200
+78 sirius64 seed = 6972413577077337200
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -4072,7 +4072,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 10263 seconds
   no anomalies in 354 test result(s)
 
-79 sirius64gen 5857712794482730425
+79 sirius64 seed = 5857712794482730425
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -4122,7 +4122,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 10340 seconds
   no anomalies in 354 test result(s)
 
-80 sirius64gen 14116560121761104930
+80 sirius64 seed = 14116560121761104930
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -4172,7 +4172,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 10506 seconds
   no anomalies in 354 test result(s)
 
-81 sirius64gen 10042692426944741663
+81 sirius64 seed = 10042692426944741663
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -4222,7 +4222,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 10541 seconds
   no anomalies in 354 test result(s)
 
-82 sirius64gen 1159204321606885248
+82 sirius64 seed = 1159204321606885248
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -4272,7 +4272,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 10479 seconds
   no anomalies in 354 test result(s)
 
-83 sirius64gen 9661783013926213442
+83 sirius64 seed = 9661783013926213442
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -4324,7 +4324,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 10336 seconds
   no anomalies in 354 test result(s)
 
-84 sirius64gen 3590515188276165519
+84 sirius64 seed = 3590515188276165519
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -4374,7 +4374,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 10593 seconds
   no anomalies in 354 test result(s)
 
-85 sirius64gen 270998934246842107
+85 sirius64 seed = 270998934246842107
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -4424,7 +4424,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 10465 seconds
   no anomalies in 354 test result(s)
 
-86 sirius64gen 9935527012177729806
+86 sirius64 seed = 9935527012177729806
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -4474,7 +4474,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 10445 seconds
   no anomalies in 354 test result(s)
 
-87 sirius64gen 6699155051197088336
+87 sirius64 seed = 6699155051197088336
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -4528,7 +4528,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 10329 seconds
   no anomalies in 354 test result(s)
 
-88 sirius64gen 6191598451850818420
+88 sirius64 seed = 6191598451850818420
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -4580,7 +4580,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 10318 seconds
   no anomalies in 354 test result(s)
 
-89 sirius64gen 1553867717735602801
+89 sirius64 seed = 1553867717735602801
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -4630,7 +4630,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 10368 seconds
   no anomalies in 354 test result(s)
 
-90 sirius64gen 6074194759572856765
+90 sirius64 seed = 6074194759572856765
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -4684,7 +4684,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 10514 seconds
   no anomalies in 354 test result(s)
 
-91 sirius64gen 5656048271346433828
+91 sirius64 seed = 5656048271346433828
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -4736,7 +4736,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 10662 seconds
   no anomalies in 354 test result(s)
 
-92 sirius64gen 16295229553337616517
+92 sirius64 seed = 16295229553337616517
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -4788,7 +4788,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 10553 seconds
   no anomalies in 354 test result(s)
 
-93 sirius64gen 6416498374072729503
+93 sirius64 seed = 6416498374072729503
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -4838,7 +4838,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 11009 seconds
   no anomalies in 354 test result(s)
 
-94 sirius64gen 14400555339013938881
+94 sirius64 seed = 14400555339013938881
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -4893,7 +4893,7 @@ length= 1 terabyte (2^40 bytes), time= 11340 seconds
   FPF/16:cross                      R=  -2.6  p =1-1.2e-4   unusual          
   ...and 353 test result(s) without anomalies
 
-95 sirius64gen 18228022039706314268
+95 sirius64 seed = 18228022039706314268
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -4943,7 +4943,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 11456 seconds
   no anomalies in 354 test result(s)
 
-96 sirius64gen 17074222848255501882
+96 sirius64 seed = 17074222848255501882
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -4995,7 +4995,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 11514 seconds
   no anomalies in 354 test result(s)
 
-97 sirius64gen 2484279731288524120
+97 sirius64 seed = 2484279731288524120
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -5045,7 +5045,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 11453 seconds
   no anomalies in 354 test result(s)
 
-98 sirius64gen 13101497212768756618
+98 sirius64 seed = 13101497212768756618
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -5095,7 +5095,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 11048 seconds
   no anomalies in 354 test result(s)
 
-99 sirius64gen 1976853174142194381
+99 sirius64 seed = 1976853174142194381
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -5147,7 +5147,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 11035 seconds
   no anomalies in 354 test result(s)
 
-100 sirius64gen 17738342064995672653
+100 sirius64 seed = 17738342064995672653
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -5199,7 +5199,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 10958 seconds
   no anomalies in 354 test result(s)
 
-101 sirius64gen 2917324004520374610
+101 sirius64 seed = 2917324004520374610
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -5249,7 +5249,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 11021 seconds
   no anomalies in 354 test result(s)
 
-102 sirius64gen 5024705190507795010
+102 sirius64 seed = 5024705190507795010
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -5299,7 +5299,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 10946 seconds
   no anomalies in 354 test result(s)
 
-103 sirius64gen 2164585924670501985
+103 sirius64 seed = 2164585924670501985
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -5349,7 +5349,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 10955 seconds
   no anomalies in 354 test result(s)
 
-104 sirius64gen 16553894968447795120
+104 sirius64 seed = 16553894968447795120
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -5399,7 +5399,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 11040 seconds
   no anomalies in 354 test result(s)
 
-105 sirius64gen 15552871167182111472
+105 sirius64 seed = 15552871167182111472
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -5449,7 +5449,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 11354 seconds
   no anomalies in 354 test result(s)
 
-106 sirius64gen 11471856314269659864
+106 sirius64 seed = 11471856314269659864
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -5499,7 +5499,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 10937 seconds
   no anomalies in 354 test result(s)
 
-107 sirius64gen 14049237761266118268
+107 sirius64 seed = 14049237761266118268
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -5549,7 +5549,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 10961 seconds
   no anomalies in 354 test result(s)
 
-108 sirius64gen 8925868134794586916
+108 sirius64 seed = 8925868134794586916
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -5601,7 +5601,7 @@ length= 1 terabyte (2^40 bytes), time= 10903 seconds
   [Low16/64]FPF/16:all              R=  -5.1  p =1-1.5e-4   unusual          
   ...and 353 test result(s) without anomalies
 
-109 sirius64gen 1374933703801316252
+109 sirius64 seed = 1374933703801316252
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -5651,7 +5651,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 10908 seconds
   no anomalies in 354 test result(s)
 
-110 sirius64gen 16650164108459128729
+110 sirius64 seed = 16650164108459128729
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -5703,7 +5703,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 10886 seconds
   no anomalies in 354 test result(s)
 
-111 sirius64gen 6191079931806354819
+111 sirius64 seed = 6191079931806354819
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -5755,7 +5755,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 10898 seconds
   no anomalies in 354 test result(s)
 
-112 sirius64gen 15682363301097455644
+112 sirius64 seed = 15682363301097455644
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -5809,7 +5809,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 11004 seconds
   no anomalies in 354 test result(s)
 
-113 sirius64gen 2753669307547820570
+113 sirius64 seed = 2753669307547820570
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -5861,7 +5861,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 11186 seconds
   no anomalies in 354 test result(s)
 
-114 sirius64gen 16400871474731824604
+114 sirius64 seed = 16400871474731824604
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -5913,7 +5913,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 10864 seconds
   no anomalies in 354 test result(s)
 
-115 sirius64gen 14512276835337989394
+115 sirius64 seed = 14512276835337989394
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -5965,7 +5965,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 10957 seconds
   no anomalies in 354 test result(s)
 
-116 sirius64gen 431202857053067860
+116 sirius64 seed = 431202857053067860
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -6019,7 +6019,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 11200 seconds
   no anomalies in 354 test result(s)
 
-117 sirius64gen 12001397289871792884
+117 sirius64 seed = 12001397289871792884
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -6069,7 +6069,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 11327 seconds
   no anomalies in 354 test result(s)
 
-118 sirius64gen 4840358542243041039
+118 sirius64 seed = 4840358542243041039
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -6119,7 +6119,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 11247 seconds
   no anomalies in 354 test result(s)
 
-119 sirius64gen 9010930091982373910
+119 sirius64 seed = 9010930091982373910
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -6171,7 +6171,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 11109 seconds
   no anomalies in 354 test result(s)
 
-120 sirius64gen 6857382607647986761
+120 sirius64 seed = 6857382607647986761
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -6221,7 +6221,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 11116 seconds
   no anomalies in 354 test result(s)
 
-121 sirius64gen 4161408781312777433
+121 sirius64 seed = 4161408781312777433
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -6276,7 +6276,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 11119 seconds
   no anomalies in 354 test result(s)
 
-122 sirius64gen 17298730594120513680
+122 sirius64 seed = 17298730594120513680
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -6331,7 +6331,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 11114 seconds
   no anomalies in 354 test result(s)
 
-123 sirius64gen 15480805113896956601
+123 sirius64 seed = 15480805113896956601
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -6381,7 +6381,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 11150 seconds
   no anomalies in 354 test result(s)
 
-124 sirius64gen 16491538208745396312
+124 sirius64 seed = 16491538208745396312
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -6433,7 +6433,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 11344 seconds
   no anomalies in 354 test result(s)
 
-125 sirius64gen 18077468406522204754
+125 sirius64 seed = 18077468406522204754
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -6485,7 +6485,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 11053 seconds
   no anomalies in 354 test result(s)
 
-126 sirius64gen 7741101798082096445
+126 sirius64 seed = 7741101798082096445
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -6537,7 +6537,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 11038 seconds
   no anomalies in 354 test result(s)
 
-127 sirius64gen 18345565955659142174
+127 sirius64 seed = 18345565955659142174
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -6589,7 +6589,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 11073 seconds
   no anomalies in 354 test result(s)
 
-128 sirius64gen 15755202972494515475
+128 sirius64 seed = 15755202972494515475
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -6647,7 +6647,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 11204 seconds
   no anomalies in 354 test result(s)
 
-129 sirius64gen 16141069637830097394
+129 sirius64 seed = 16141069637830097394
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -6697,7 +6697,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 10950 seconds
   no anomalies in 354 test result(s)
 
-130 sirius64gen 2469817390530872916
+130 sirius64 seed = 2469817390530872916
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -6747,7 +6747,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 10922 seconds
   no anomalies in 354 test result(s)
 
-131 sirius64gen 12855546397031945058
+131 sirius64 seed = 12855546397031945058
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -6799,7 +6799,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 10903 seconds
   no anomalies in 354 test result(s)
 
-132 sirius64gen 6920612936754426756
+132 sirius64 seed = 6920612936754426756
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -6851,7 +6851,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 10529 seconds
   no anomalies in 354 test result(s)
 
-133 sirius64gen 18153626584151879172
+133 sirius64 seed = 18153626584151879172
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -6903,7 +6903,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 10230 seconds
   no anomalies in 354 test result(s)
 
-134 sirius64gen 14310173104053635016
+134 sirius64 seed = 14310173104053635016
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -6953,7 +6953,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 10253 seconds
   no anomalies in 354 test result(s)
 
-135 sirius64gen 15052343090178971021
+135 sirius64 seed = 15052343090178971021
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -7007,7 +7007,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 10203 seconds
   no anomalies in 354 test result(s)
 
-136 sirius64gen 3255904393106548540
+136 sirius64 seed = 3255904393106548540
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -7057,7 +7057,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 10221 seconds
   no anomalies in 354 test result(s)
 
-137 sirius64gen 1027314559068668529
+137 sirius64 seed = 1027314559068668529
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -7107,7 +7107,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 10146 seconds
   no anomalies in 354 test result(s)
 
-138 sirius64gen 9723335767536542383
+138 sirius64 seed = 9723335767536542383
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -7157,7 +7157,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 10237 seconds
   no anomalies in 354 test result(s)
 
-139 sirius64gen 3540290600605998356
+139 sirius64 seed = 3540290600605998356
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -7209,7 +7209,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 10387 seconds
   no anomalies in 354 test result(s)
 
-140 sirius64gen 6818920833310970574
+140 sirius64 seed = 6818920833310970574
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -7261,7 +7261,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 10571 seconds
   no anomalies in 354 test result(s)
 
-141 sirius64gen 7581117273524769181
+141 sirius64 seed = 7581117273524769181
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -7311,7 +7311,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 10434 seconds
   no anomalies in 354 test result(s)
 
-142 sirius64gen 818529085574313873
+142 sirius64 seed = 818529085574313873
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -7363,7 +7363,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 10369 seconds
   no anomalies in 354 test result(s)
 
-143 sirius64gen 719879790795424451
+143 sirius64 seed = 719879790795424451
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -7413,7 +7413,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 10518 seconds
   no anomalies in 354 test result(s)
 
-144 sirius64gen 13992661807920077239
+144 sirius64 seed = 13992661807920077239
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -7463,7 +7463,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 10479 seconds
   no anomalies in 354 test result(s)
 
-145 sirius64gen 2249743600406140304
+145 sirius64 seed = 2249743600406140304
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -7513,7 +7513,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 10618 seconds
   no anomalies in 354 test result(s)
 
-146 sirius64gen 604495343907573491
+146 sirius64 seed = 604495343907573491
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -7563,7 +7563,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 10380 seconds
   no anomalies in 354 test result(s)
 
-147 sirius64gen 16332457475259404794
+147 sirius64 seed = 16332457475259404794
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -7615,7 +7615,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 11495 seconds
   no anomalies in 354 test result(s)
 
-148 sirius64gen 177852481101632029
+148 sirius64 seed = 177852481101632029
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -7665,7 +7665,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 10900 seconds
   no anomalies in 354 test result(s)
 
-149 sirius64gen 16799761268640244109
+149 sirius64 seed = 16799761268640244109
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -7717,7 +7717,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 11036 seconds
   no anomalies in 354 test result(s)
 
-150 sirius64gen 13128197795552396285
+150 sirius64 seed = 13128197795552396285
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -7769,7 +7769,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 10961 seconds
   no anomalies in 354 test result(s)
 
-151 sirius64gen 6473412032918093778
+151 sirius64 seed = 6473412032918093778
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -7821,7 +7821,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 11151 seconds
   no anomalies in 354 test result(s)
 
-152 sirius64gen 15988940812091463054
+152 sirius64 seed = 15988940812091463054
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -7873,7 +7873,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 10936 seconds
   no anomalies in 354 test result(s)
 
-153 sirius64gen 546318109967626510
+153 sirius64 seed = 546318109967626510
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -7925,7 +7925,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 10932 seconds
   no anomalies in 354 test result(s)
 
-154 sirius64gen 11177197738866974506
+154 sirius64 seed = 11177197738866974506
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -7975,7 +7975,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 10942 seconds
   no anomalies in 354 test result(s)
 
-155 sirius64gen 8513887082395336676
+155 sirius64 seed = 8513887082395336676
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -8027,7 +8027,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 10898 seconds
   no anomalies in 354 test result(s)
 
-156 sirius64gen 12294592262394614067
+156 sirius64 seed = 12294592262394614067
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -8081,7 +8081,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 11002 seconds
   no anomalies in 354 test result(s)
 
-157 sirius64gen 10565984786843441967
+157 sirius64 seed = 10565984786843441967
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -8131,7 +8131,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 11193 seconds
   no anomalies in 354 test result(s)
 
-158 sirius64gen 4937325076953723474
+158 sirius64 seed = 4937325076953723474
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -8183,7 +8183,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 11249 seconds
   no anomalies in 354 test result(s)
 
-159 sirius64gen 2544351362581355851
+159 sirius64 seed = 2544351362581355851
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -8233,7 +8233,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 11055 seconds
   no anomalies in 354 test result(s)
 
-160 sirius64gen 18076517552580110609
+160 sirius64 seed = 18076517552580110609
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -8285,7 +8285,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 10843 seconds
   no anomalies in 354 test result(s)
 
-161 sirius64gen 2062888402721845302
+161 sirius64 seed = 2062888402721845302
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -8337,7 +8337,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 10966 seconds
   no anomalies in 354 test result(s)
 
-162 sirius64gen 1745785157266463657
+162 sirius64 seed = 1745785157266463657
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -8391,7 +8391,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 11191 seconds
   no anomalies in 354 test result(s)
 
-163 sirius64gen 10818291315554893957
+163 sirius64 seed = 10818291315554893957
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -8445,7 +8445,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 11247 seconds
   no anomalies in 354 test result(s)
 
-164 sirius64gen 2488092974761196180
+164 sirius64 seed = 2488092974761196180
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -8495,7 +8495,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 11174 seconds
   no anomalies in 354 test result(s)
 
-165 sirius64gen 957582739592235389
+165 sirius64 seed = 957582739592235389
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -8547,7 +8547,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 11214 seconds
   no anomalies in 354 test result(s)
 
-166 sirius64gen 2341258008606557776
+166 sirius64 seed = 2341258008606557776
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -8597,7 +8597,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 11140 seconds
   no anomalies in 354 test result(s)
 
-167 sirius64gen 11728451519323808263
+167 sirius64 seed = 11728451519323808263
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -8647,7 +8647,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 11128 seconds
   no anomalies in 354 test result(s)
 
-168 sirius64gen 4500863153862343993
+168 sirius64 seed = 4500863153862343993
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -8697,7 +8697,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 11204 seconds
   no anomalies in 354 test result(s)
 
-169 sirius64gen 2008998176630859425
+169 sirius64 seed = 2008998176630859425
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -8751,7 +8751,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 11162 seconds
   no anomalies in 354 test result(s)
 
-170 sirius64gen 4501045713559606773
+170 sirius64 seed = 4501045713559606773
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -8805,7 +8805,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 11106 seconds
   no anomalies in 354 test result(s)
 
-171 sirius64gen 7857421094202556364
+171 sirius64 seed = 7857421094202556364
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -8855,7 +8855,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 11036 seconds
   no anomalies in 354 test result(s)
 
-172 sirius64gen 5490374254980916662
+172 sirius64 seed = 5490374254980916662
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -8907,7 +8907,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 11084 seconds
   no anomalies in 354 test result(s)
 
-173 sirius64gen 13080137326318579662
+173 sirius64 seed = 13080137326318579662
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -8959,7 +8959,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 11082 seconds
   no anomalies in 354 test result(s)
 
-174 sirius64gen 12989900093328947703
+174 sirius64 seed = 12989900093328947703
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -9011,7 +9011,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 11200 seconds
   no anomalies in 354 test result(s)
 
-175 sirius64gen 6445375787795534840
+175 sirius64 seed = 6445375787795534840
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -9063,7 +9063,7 @@ length= 1 terabyte (2^40 bytes), time= 11027 seconds
   [Low4/64]BCFN(2+2,13-0U)          R=  +8.4  p =  5.3e-4   unusual          
   ...and 353 test result(s) without anomalies
 
-176 sirius64gen 16375966671982030267
+176 sirius64 seed = 16375966671982030267
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -9113,7 +9113,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 10977 seconds
   no anomalies in 354 test result(s)
 
-177 sirius64gen 3628998120852915290
+177 sirius64 seed = 3628998120852915290
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -9163,7 +9163,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 10947 seconds
   no anomalies in 354 test result(s)
 
-178 sirius64gen 8179880670018106376
+178 sirius64 seed = 8179880670018106376
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -9213,7 +9213,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 11047 seconds
   no anomalies in 354 test result(s)
 
-179 sirius64gen 433690081754931585
+179 sirius64 seed = 433690081754931585
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -9267,7 +9267,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 10928 seconds
   no anomalies in 354 test result(s)
 
-180 sirius64gen 13264221536272811055
+180 sirius64 seed = 13264221536272811055
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -9317,7 +9317,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 10950 seconds
   no anomalies in 354 test result(s)
 
-181 sirius64gen 9327599093711472042
+181 sirius64 seed = 9327599093711472042
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -9370,7 +9370,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 10999 seconds
   no anomalies in 354 test result(s)
 
-182 sirius64gen 9437617770280793258
+182 sirius64 seed = 9437617770280793258
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -9422,7 +9422,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 11105 seconds
   no anomalies in 354 test result(s)
 
-183 sirius64gen 1756446164968190568
+183 sirius64 seed = 1756446164968190568
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -9474,7 +9474,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 11013 seconds
   no anomalies in 354 test result(s)
 
-184 sirius64gen 15517480840275305623
+184 sirius64 seed = 15517480840275305623
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -9526,7 +9526,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 11045 seconds
   no anomalies in 354 test result(s)
 
-185 sirius64gen 8891335013993414876
+185 sirius64 seed = 8891335013993414876
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -9580,7 +9580,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 11035 seconds
   no anomalies in 354 test result(s)
 
-186 sirius64gen 16664197501284821873
+186 sirius64 seed = 16664197501284821873
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -9630,7 +9630,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 11371 seconds
   no anomalies in 354 test result(s)
 
-187 sirius64gen 9801183527033176820
+187 sirius64 seed = 9801183527033176820
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -9680,7 +9680,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 10955 seconds
   no anomalies in 354 test result(s)
 
-188 sirius64gen 13318788626782818077
+188 sirius64 seed = 13318788626782818077
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -9730,7 +9730,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 11183 seconds
   no anomalies in 354 test result(s)
 
-189 sirius64gen 6790918973663408594
+189 sirius64 seed = 6790918973663408594
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -9780,7 +9780,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 11410 seconds
   no anomalies in 354 test result(s)
 
-190 sirius64gen 7757780934669328762
+190 sirius64 seed = 7757780934669328762
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -9832,7 +9832,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 1832 seconds
   no anomalies in 354 test result(s)
 
-191 sirius64gen 12910772499320609386
+191 sirius64 seed = 12910772499320609386
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -9884,7 +9884,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 1858 seconds
   no anomalies in 354 test result(s)
 
-192 sirius64gen 14136743791385163247
+192 sirius64 seed = 14136743791385163247
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -9942,7 +9942,7 @@ length= 1 terabyte (2^40 bytes), time= 1833 seconds
   FPF/16:cross                      R=  -2.5  p =1-2.0e-4   unusual          
   ...and 353 test result(s) without anomalies
 
-193 sirius64gen 15529615688351217744
+193 sirius64 seed = 15529615688351217744
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -9992,7 +9992,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 1852 seconds
   no anomalies in 354 test result(s)
 
-194 sirius64gen 9476761972115024835
+194 sirius64 seed = 9476761972115024835
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -10044,7 +10044,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 1845 seconds
   no anomalies in 354 test result(s)
 
-195 sirius64gen 9106112647636407172
+195 sirius64 seed = 9106112647636407172
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -10096,7 +10096,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 4583 seconds
   no anomalies in 354 test result(s)
 
-196 sirius64gen 16902697553809415125
+196 sirius64 seed = 16902697553809415125
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -10150,7 +10150,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 1860 seconds
   no anomalies in 354 test result(s)
 
-197 sirius64gen 198122484329720810
+197 sirius64 seed = 198122484329720810
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -10202,7 +10202,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 1858 seconds
   no anomalies in 354 test result(s)
 
-198 sirius64gen 612411309724541305
+198 sirius64 seed = 612411309724541305
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
@@ -10252,7 +10252,7 @@ rng=RNG_stdin64, seed=unknown
 length= 1 terabyte (2^40 bytes), time= 1863 seconds
   no anomalies in 354 test result(s)
 
-199 sirius64gen 9461112677646917525
+199 sirius64 seed = 9461112677646917525
 ================================================================
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
