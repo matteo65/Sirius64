@@ -64,7 +64,7 @@ Total Tests: 646200
 
 ### Anomaly Ranking
 <details>
-  <summary><b>Show🔽/b></summary>
+  <summary><b>Show🔽</b></summary>
 |Anomaly|    #|
 |-------|-----|
 |[Low4/64]DC6-9x1Bytes-1|16|
