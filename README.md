@@ -30,11 +30,11 @@ Together, these approaches assess both cross-seed robustness and long-range stat
 - Designed to evaluate consistency across a large number of initial states and seeds.
 - Report available on [test_practrand/practrand_test.txt](https://github.com/matteo65/Sirius64/blob/main/test_practrand/practrand_test.txt)
 
-Total PractRand reports: 200  
-Reports without anomalies: 90  
-Reports with anomalies: 110  
-Total Test Stages: 2200  
-Total Tests: 646200  
+Total PractRand reports: **200**  
+Reports without anomalies: **90**  
+Reports with anomalies: **110**  
+Total Test Stages: **2200**  
+Total Tests: **646200**  
 
 ### Anomaly Counting
 |Anomaly|    #| Percentage|Min p-value|Max p-value|
