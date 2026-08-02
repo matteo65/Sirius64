@@ -1,0 +1,576 @@
+06 sirius64 seed = 15018305529109891896
+================================================================
+Generator name:    stdin64
+Output size, bits: 64
+===== Starting 'full' battery =====
+----- Test 1 of 50 (monobit_freq)
+Monobit frequency test
+  Number of bits: 17179869184 (2^34.00)
+  sum = -129283; x = 0.986351; p = 0.16198
+
+----- Test 2 of 50 (byte_freq)
+Byte frequency test
+  nblocks = 4096; block_len = 32768
+  K = 0.805245, p = 0.535633
+
+----- Test 3 of 50 (word16_freq)
+16-bit words frequency test
+  nblocks = 4096; block_len = 524288
+  K = 0.602149, p = 0.861425
+
+----- Test 4 of 50 (bspace64_1d)
+Birthday spacings test
+  ndims = 1; nbits_per_dim = 64; get_lower = 1
+  nsamples = 250; len = 6658042, lambda = 4
+  x = 1013; p = 0.333154
+
+----- Test 5 of 50 (bspace32_1d)
+Birthday spacings test
+  ndims = 1; nbits_per_dim = 32; get_lower = 1
+  nsamples = 8192; len = 4096, lambda = 4
+  x = 32778; p = 0.476507
+
+----- Test 6 of 50 (bspace32_1d_high)
+Birthday spacings test
+  ndims = 1; nbits_per_dim = 32; get_lower = 0
+  nsamples = 8192; len = 4096, lambda = 4
+  x = 32623; p = 0.787543
+
+----- Test 7 of 50 (bspace32_2d)
+Birthday spacings test
+  ndims = 2; nbits_per_dim = 32; get_lower = 1
+  nsamples = 250; len = 6658042, lambda = 4
+  x = 999; p = 0.504202
+
+----- Test 8 of 50 (bspace32_2d_high)
+Birthday spacings test
+  ndims = 2; nbits_per_dim = 32; get_lower = 0
+  nsamples = 250; len = 6658042, lambda = 4
+  x = 977; p = 0.760809
+
+----- Test 9 of 50 (bspace21_3d)
+Birthday spacings test
+  ndims = 3; nbits_per_dim = 21; get_lower = 1
+  nsamples = 200; len = 5284491, lambda = 4
+  x = 806; p = 0.406949
+
+----- Test 10 of 50 (bspace21_3d_high)
+Birthday spacings test
+  ndims = 3; nbits_per_dim = 21; get_lower = 0
+  nsamples = 200; len = 5284491, lambda = 4
+  x = 791; p = 0.616055
+
+----- Test 11 of 50 (bspace16_4d)
+Birthday spacings test
+  ndims = 4; nbits_per_dim = 16; get_lower = 1
+  nsamples = 200; len = 6658042, lambda = 4
+  x = 779; p = 0.764849
+
+----- Test 12 of 50 (bspace16_4d_high)
+Birthday spacings test
+  ndims = 4; nbits_per_dim = 16; get_lower = 0
+  nsamples = 200; len = 6658042, lambda = 4
+  x = 808; p = 0.379848
+
+----- Test 13 of 50 (bspace8_8d)
+Birthday spacings test
+  ndims = 8; nbits_per_dim = 8; get_lower = 1
+  nsamples = 200; len = 6658042, lambda = 4
+  x = 800; p = 0.490595
+
+----- Test 14 of 50 (bspace8_8d_high)
+Birthday spacings test
+  ndims = 8; nbits_per_dim = 8; get_lower = 0
+  nsamples = 200; len = 6658042, lambda = 4
+  x = 830; p = 0.140638
+
+----- Test 15 of 50 (bspace4_8d_dec)
+Birthday spacings test with decimation
+  ndims = 8; nbits_per_dim = 4; step = 262144
+  nsamples = 1; len = 4096, lambda = 4
+  Lower bits:                    x =      9; p = 0.00813224
+  Higher bits (reversed):        x =      5; p = 0.21487
+  Higher bits (no reverse):      x =      8; p = 0.0213634
+  Final result:                  x =      9; p = 0.0241989
+
+----- Test 16 of 50 (bspace4_16d)
+Birthday spacings test
+  ndims = 16; nbits_per_dim = 4; get_lower = 1
+  nsamples = 200; len = 6658042, lambda = 4
+  x = 807; p = 0.393332
+
+----- Test 17 of 50 (bspace4_16d_high)
+Birthday spacings test
+  ndims = 16; nbits_per_dim = 4; get_lower = 0
+  nsamples = 200; len = 6658042, lambda = 4
+  x = 785; p = 0.694376
+
+----- Test 18 of 50 (collover20_2d)
+CollisionOver test
+  ndims = 2; nbits_per_dim = 20; n = 50000000, get_lower = 1
+  nsamples = 50; len = 50000000, mu = 1136.85 * 50
+  Frequencies table (average per sample)
+ -----------------------------------------
+   Freq               Oi               Ei
+      0    1097011684781  1099461628913.9
+      1         49997720       49997725.3
+      2             1139           1136.8
+      3                0              0.0
+ -----------------------------------------
+  lambda = 4.54747e-05, mu = 1136.85 * 50
+  x = 56953; p = 0.320646
+
+----- Test 19 of 50 (collover20_2d_high)
+CollisionOver test
+  ndims = 2; nbits_per_dim = 20; n = 50000000, get_lower = 0
+  nsamples = 50; len = 50000000, mu = 1136.85 * 50
+  Frequencies table (average per sample)
+ -----------------------------------------
+   Freq               Oi               Ei
+      0    1097011684557  1099461628913.9
+      1         49997729       49997725.3
+      2             1134           1136.8
+      3                0              0.0
+ -----------------------------------------
+  lambda = 4.54747e-05, mu = 1136.85 * 50
+  x = 56729; p = 0.682123
+
+----- Test 20 of 50 (collover13_3d)
+CollisionOver test
+  ndims = 3; nbits_per_dim = 13; n = 50000000, get_lower = 1
+  nsamples = 50; len = 50000000, mu = 2273.67 * 50
+  Frequencies table (average per sample)
+ -----------------------------------------
+   Freq               Oi               Ei
+      0     547255927918   549705816163.7
+      1         49995439       49995450.7
+      2             2279           2273.5
+      3                0              0.1
+ -----------------------------------------
+  lambda = 9.09495e-05, mu = 2273.67 * 50
+  x = 113974; p = 0.19392
+
+----- Test 21 of 50 (collover13_3d_high)
+CollisionOver test
+  ndims = 3; nbits_per_dim = 13; n = 50000000, get_lower = 0
+  nsamples = 50; len = 50000000, mu = 2273.67 * 50
+  Frequencies table (average per sample)
+ -----------------------------------------
+   Freq               Oi               Ei
+      0     547255928522   549705816163.7
+      1         49995415       49995450.7
+      2             2291           2273.5
+      3                0              0.1
+ -----------------------------------------
+  lambda = 9.09495e-05, mu = 2273.67 * 50
+  x = 114578; p = 0.00400299
+
+----- Test 22 of 50 (collover8_5d)
+CollisionOver test
+  ndims = 5; nbits_per_dim = 8; n = 50000000, get_lower = 1
+  nsamples = 50; len = 50000000, mu = 1136.85 * 50
+  Frequencies table (average per sample)
+ -----------------------------------------
+   Freq               Oi               Ei
+      0    1097011685307  1099461628916.9
+      1         49997699       49997722.3
+      2             1149           1136.8
+      3                0              0.0
+ -----------------------------------------
+  lambda = 4.54747e-05, mu = 1136.85 * 50
+  x = 57475; p = 0.00401734
+
+----- Test 23 of 50 (collover8_5d_high)
+CollisionOver test
+  ndims = 5; nbits_per_dim = 8; n = 50000000, get_lower = 0
+  nsamples = 50; len = 50000000, mu = 1136.85 * 50
+  Frequencies table (average per sample)
+ -----------------------------------------
+   Freq               Oi               Ei
+      0    1097011684708  1099461628916.9
+      1         49997723       49997722.3
+      2             1137           1136.8
+      3                0              0.0
+ -----------------------------------------
+  lambda = 4.54747e-05, mu = 1136.85 * 50
+  x = 56882; p = 0.433192
+
+----- Test 24 of 50 (collover5_8d)
+CollisionOver test
+  ndims = 8; nbits_per_dim = 5; n = 50000000, get_lower = 1
+  nsamples = 50; len = 50000000, mu = 1136.85 * 50
+  Frequencies table (average per sample)
+ -----------------------------------------
+   Freq               Oi               Ei
+      0    1097011684612  1099461628919.9
+      1         49997727       49997719.3
+      2             1135           1136.8
+      3                0              0.0
+ -----------------------------------------
+  lambda = 4.54747e-05, mu = 1136.85 * 50
+  x = 56786; p = 0.592661
+
+----- Test 25 of 50 (collover5_8d_high)
+CollisionOver test
+  ndims = 8; nbits_per_dim = 5; n = 50000000, get_lower = 0
+  nsamples = 50; len = 50000000, mu = 1136.85 * 50
+  Frequencies table (average per sample)
+ -----------------------------------------
+   Freq               Oi               Ei
+      0    1097011684774  1099461628919.9
+      1         49997721       49997719.3
+      2             1138           1136.8
+      3                0              0.0
+ -----------------------------------------
+  lambda = 4.54747e-05, mu = 1136.85 * 50
+  x = 56946; p = 0.3312
+
+----- Test 26 of 50 (collover3_13d)
+CollisionOver test
+  ndims = 13; nbits_per_dim = 3; n = 50000000, get_lower = 1
+  nsamples = 50; len = 50000000, mu = 2273.67 * 50
+  Frequencies table (average per sample)
+ -----------------------------------------
+   Freq               Oi               Ei
+      0     547255927103   549705816173.7
+      1         49995472       49995440.7
+      2             2263           2273.5
+      3                0              0.1
+ -----------------------------------------
+  lambda = 9.09494e-05, mu = 2273.67 * 50
+  x = 113161; p = 0.939236
+
+----- Test 27 of 50 (collover3_13d_high)
+CollisionOver test
+  ndims = 13; nbits_per_dim = 3; n = 50000000, get_lower = 0
+  nsamples = 50; len = 50000000, mu = 2273.67 * 50
+  Frequencies table (average per sample)
+ -----------------------------------------
+   Freq               Oi               Ei
+      0     547255927209   549705816173.7
+      1         49995468       49995440.7
+      2             2265           2273.5
+      3                0              0.1
+ -----------------------------------------
+  lambda = 9.09494e-05, mu = 2273.67 * 50
+  x = 113269; p = 0.890208
+
+----- Test 28 of 50 (collover2_20d)
+CollisionOver test
+  ndims = 20; nbits_per_dim = 2; n = 50000000, get_lower = 1
+  nsamples = 50; len = 50000000, mu = 1136.85 * 50
+  Frequencies table (average per sample)
+ -----------------------------------------
+   Freq               Oi               Ei
+      0    1097011684819  1099461628931.9
+      1         49997719       49997707.3
+      2             1139           1136.8
+      3                0              0.0
+ -----------------------------------------
+  lambda = 4.54747e-05, mu = 1136.85 * 50
+  x = 56993; p = 0.263133
+
+----- Test 29 of 50 (collover2_20d_high)
+CollisionOver test
+  ndims = 20; nbits_per_dim = 2; n = 50000000, get_lower = 0
+  nsamples = 50; len = 50000000, mu = 1136.85 * 50
+  Frequencies table (average per sample)
+ -----------------------------------------
+   Freq               Oi               Ei
+      0    1097011684546  1099461628931.9
+      1         49997730       49997707.3
+      2             1134           1136.8
+      3                0              0.0
+ -----------------------------------------
+  lambda = 4.54747e-05, mu = 1136.85 * 50
+  x = 56712; p = 0.707061
+
+----- Test 30 of 50 (gap_inv8)
+Gap test
+  alpha = 0.0; beta = 0.125; shl = 3;
+  ngaps = 1000000000 (2^29.90 or 10^9.00); nbins = 122
+  max_gap_len = 243
+  Values processed: 8000043858 (2^32.9)
+  x = 120.661; p = 0.491603
+
+----- Test 31 of 50 (gap_inv512)
+Gap test
+  alpha = 0.0; beta = 0.00195312; shl = 9;
+  ngaps = 10000000 (2^23.25 or 10^7.00); nbins = 3875
+  max_gap_len = 14475
+  Values processed: 5121531789 (2^32.3)
+  x = 3871.37; p = 0.508895
+
+----- Test 32 of 50 (gap_inv1024)
+Gap test
+  alpha = 0.0; beta = 0.000976562; shl = 10;
+  ngaps = 100000000 (2^26.58 or 10^8.00); nbins = 9402
+  max_gap_len = 28256
+  Values processed: 102414364867 (2^36.6)
+  x = 9316.86; p = 0.729262
+
+----- Test 33 of 50 (gap16_count0)
+gap16_count0 test
+  p = 1.52588e-05; ngaps = 1000000000 (2^29.90 or 10^9.00); nbins = 178594
+  z from chi2emp: 0.326384; p = 0.372067
+  Frequency analysis for [value ... value] gaps with '0' inside:
+    z_max = -5.35621; p = 1; alpha = 4.24927e-08; index = 68635
+    ngaps_total = 5369; ngaps_with0 = 3296
+    p_total = 5.35409e-06; p_with0 = 0.649114
+  Frequency analysis for all [value ... value] gaps:
+    z_max = 4.71602; p = 1.20252e-06; alpha = 0.999999; index = 157674
+  Frequency analysis for [0 ... value] gaps with 'value' inside:
+    z_max = 4.57418; p = 2.39041e-06; alpha = 0.999998; index = 12171
+    ngaps_total = 6635; ngaps_with0 = 3929
+    p_total = 6.64572e-06; p_with0 = 0.564466
+  Note: remember about Bonferroni correction!
+
+  x = 2.01348; p = 0.0220321
+
+----- Test 34 of 50 (hamming_distr)
+Hamming weights distribution test (histogram)
+  Sample size, values:     8589934592 (2^33.00 or 10^9.93)
+  Blocks analysis results
+        bits |        z          p |    z_xor      p_xor
+          64 |   -0.228       0.59 |    0.580      0.281
+         128 |   -0.212      0.584 |   -0.874      0.809
+         256 |   -1.099      0.864 |    0.762      0.223
+         512 |    1.083       0.14 |    0.114      0.455
+        1024 |   -0.134      0.553 |    2.492    0.00635
+        2048 |    0.823      0.205 |   -0.437      0.669
+        4096 |    2.629    0.00428 |    2.250     0.0122
+        8192 |   -0.941      0.827 |    1.364     0.0863
+       16384 |   -1.086      0.861 |   -1.396      0.919
+       32768 |   -1.060      0.855 |   -0.749      0.773
+  Final: z =   2.629, p = 0.158
+----- Test 35 of 50 (hamming_ot)
+Hamming weights based tests (overlapping tuples)
+  Sample size, bytes:     8589934592 (2^33.00 or 10^9.93)
+  Tuples to be generated: 8589934592 (2^33.00 or 10^9.93)
+  Mode: process PRNG output as a stream of bytes
+  Used probabilities for codes:
+    p(0) = 0.03906250
+    p(1) = 0.32812500
+    p(2) = 0.49218750
+    p(3) = 0.14062500
+   Number of tuples types: 262144
+   Number of bins after reduction: 196888
+  zemp = -0.0426018, p = 0.516991
+
+----- Test 36 of 50 (hamming_ot_low1)
+Hamming weights based tests (overlapping tuples)
+  Sample size, bytes:     8589934592 (2^33.00 or 10^9.93)
+  Tuples to be generated: 134217728 (2^27.00 or 10^8.13)
+  Mode: byte stream made of lower bits (bit 0) of PRNG values
+  Used probabilities for codes:
+    p(0) = 0.03906250
+    p(1) = 0.32812500
+    p(2) = 0.49218750
+    p(3) = 0.14062500
+   Number of tuples types: 262144
+   Number of bins after reduction: 67321
+  zemp = 2.18716, p = 0.0143654
+
+----- Test 37 of 50 (hamming_ot_low8)
+Hamming weights based tests (overlapping tuples)
+  Sample size, bytes:     8589934592 (2^33.00 or 10^9.93)
+  Tuples to be generated: 1073741824 (2^30.00 or 10^9.03)
+  Mode: byte stream made of 8 lower bits (bit 7..0) of PRNG values
+  Used probabilities for codes:
+    p(0) = 0.03906250
+    p(1) = 0.32812500
+    p(2) = 0.49218750
+    p(3) = 0.14062500
+   Number of tuples types: 262144
+   Number of bins after reduction: 132819
+  zemp = 1.56476, p = 0.0588191
+
+----- Test 38 of 50 (hamming_ot_values)
+Hamming weights based tests (overlapping tuples)
+  Sample size, bytes:     8589934592 (2^33.00 or 10^9.93)
+  Tuples to be generated: 1073741824 (2^30.00 or 10^9.03)
+  Mode: process 64-bit words of PRNG output directly
+  Used probabilities for codes:
+    p(0) = 0.19086640
+    p(1) = 0.25946023
+    p(2) = 0.35884211
+    p(3) = 0.19083127
+   Number of tuples types: 262144
+   Number of bins after reduction: 244736
+  zemp = -0.736884, p = 0.769404
+
+----- Test 39 of 50 (hamming_ot_u128)
+Hamming weights based test (overlapping tuples), long version
+  Sample size, values:     8589934592 (2^33.00 or 10^9.93)
+  Word size, bits:         128
+  Used probabilities for codes:
+    p(0) = 0.21321975
+    p(1) = 0.32197330
+    p(2) = 0.25158721
+    p(3) = 0.21321975
+   Number of tuples types: 262144
+   Number of bins after reduction: 243012
+  zemp = -1.3855, p = 0.917051
+
+----- Test 40 of 50 (hamming_ot_u256)
+Hamming weights based test (overlapping tuples), long version
+  Sample size, values:     8589934592 (2^33.00 or 10^9.93)
+  Word size, bits:         256
+  Used probabilities for codes:
+    p(0) = 0.24592142
+    p(1) = 0.22916902
+    p(2) = 0.27898813
+    p(3) = 0.24592142
+   Number of tuples types: 262144
+   Number of bins after reduction: 179718
+  zemp = -0.341189, p = 0.633519
+
+----- Test 41 of 50 (hamming_ot_u512)
+Hamming weights based test (overlapping tuples), long version
+  Sample size, values:     8589934592 (2^33.00 or 10^9.93)
+  Word size, bits:         512
+  Used probabilities for codes:
+    p(0) = 0.22625190
+    p(1) = 0.25612578
+    p(2) = 0.29137041
+    p(3) = 0.22625190
+   Number of tuples types: 262144
+   Number of bins after reduction: 188120
+  zemp = 0.574989, p = 0.282649
+
+----- Test 42 of 50 (linearcomp_high)
+Linear complexity test
+  nbits: 1000000; bitpos: 63
+  L = 499999; T = -1; p = 0.166667
+
+----- Test 43 of 50 (linearcomp_mid)
+Linear complexity test
+  nbits: 1000000; bitpos: 31
+  L = 500000; T = 0; p = 0.666667
+
+----- Test 44 of 50 (linearcomp_low)
+Linear complexity test
+  nbits: 1000000; bitpos: 0
+  L = 499999; T = -1; p = 0.166667
+
+----- Test 45 of 50 (matrixrank_4096)
+Matrix rank test
+  n = 4096. Number of matrices: 64; max_nbits: 64
+   rank         Oi         Ei
+   4094          6      8.218
+   4095         32      36.97
+   4096         26      18.48
+  Minimal observed rank: 4094
+  x = 4.32263; p = 0.115174; 1-p = 0.884826
+
+----- Test 46 of 50 (matrixrank_4096_low8)
+Matrix rank test
+  n = 4096. Number of matrices: 64; max_nbits: 8
+   rank         Oi         Ei
+   4094         12      8.218
+   4095         35      36.97
+   4096         17      18.48
+  Minimal observed rank: 4094
+  x = 1.96459; p = 0.374451; 1-p = 0.625549
+
+----- Test 47 of 50 (matrixrank_8192)
+Matrix rank test
+  n = 8192. Number of matrices: 64; max_nbits: 64
+   rank         Oi         Ei
+   8190          7      8.218
+   8191         40      36.97
+   8192         17      18.48
+  Minimal observed rank: 8189
+  x = 0.548381; p = 0.760187; 1-p = 0.239813
+
+----- Test 48 of 50 (matrixrank_8192_low8)
+Matrix rank test
+  n = 8192. Number of matrices: 64; max_nbits: 8
+   rank         Oi         Ei
+   8190         15      8.218
+   8191         37      36.97
+   8192         12      18.48
+  Minimal observed rank: 8190
+  x = 7.87195; p = 0.0195267; 1-p = 0.980473
+
+----- Test 49 of 50 (mod3)
+mod3 test
+  Sample size: 1073741824 (2^30.00) values
+  z = 1.19386; p = 0.116266
+
+----- Test 50 of 50 (sumcollector)
+SumCollector test
+  Number of values: 20000000000 (2^34.2193)
+  Number of sums: 1016947723 (2^29.9216)
+  x = 30.9065; p = 0.369845; df = 29
+
+
+==================== Seeds logger report ====================
+Number of seeds: 0
+    Thread          Seed(HEX)            Seed(DEC)
+==================== 'full' battery report ====================
+Generator name:    stdin64
+Output size, bits: 64
+SmokeRand version: 0.48-gcc-linux64
+Used seed:         none
+
+    # Test name                    xemp              p Interpretation  Thr#
+-------------------------------------------------------------------------------
+    1 monobit_freq             0.986351          0.162 Ok                 0
+    2 byte_freq                0.805245          0.536 Ok                 0
+    3 word16_freq              0.602149          0.861 Ok                 0
+    4 bspace64_1d                  1013          0.333 Ok                 0
+    5 bspace32_1d                 32778          0.477 Ok                 0
+    6 bspace32_1d_high            32623          0.788 Ok                 0
+    7 bspace32_2d                   999          0.504 Ok                 0
+    8 bspace32_2d_high              977          0.761 Ok                 0
+    9 bspace21_3d                   806          0.407 Ok                 0
+   10 bspace21_3d_high              791          0.616 Ok                 0
+   11 bspace16_4d                   779          0.765 Ok                 0
+   12 bspace16_4d_high              808          0.380 Ok                 0
+   13 bspace8_8d                    800          0.491 Ok                 0
+   14 bspace8_8d_high               830          0.141 Ok                 0
+   15 bspace4_8d_dec                  9          0.024 Ok                 0
+   16 bspace4_16d                   807          0.393 Ok                 0
+   17 bspace4_16d_high              785          0.694 Ok                 0
+   18 collover20_2d               56953          0.321 Ok                 0
+   19 collover20_2d_high          56729          0.682 Ok                 0
+   20 collover13_3d              113974          0.194 Ok                 0
+   21 collover13_3d_high         114578          0.004 Ok                 0
+   22 collover8_5d                57475          0.004 Ok                 0
+   23 collover8_5d_high           56882          0.433 Ok                 0
+   24 collover5_8d                56786          0.593 Ok                 0
+   25 collover5_8d_high           56946          0.331 Ok                 0
+   26 collover3_13d              113161          0.939 Ok                 0
+   27 collover3_13d_high         113269          0.890 Ok                 0
+   28 collover2_20d               56993          0.263 Ok                 0
+   29 collover2_20d_high          56712          0.707 Ok                 0
+   30 gap_inv8                  120.661          0.492 Ok                 0
+   31 gap_inv512                3871.37          0.509 Ok                 0
+   32 gap_inv1024               9316.86          0.729 Ok                 0
+   33 gap16_count0              2.01348          0.022 Ok                 0
+   34 hamming_distr             2.62882          0.158 Ok                 0
+   35 hamming_ot             -0.0426018          0.517 Ok                 0
+   36 hamming_ot_low1           2.18716          0.014 Ok                 0
+   37 hamming_ot_low8           1.56476          0.059 Ok                 0
+   38 hamming_ot_values       -0.736884          0.769 Ok                 0
+   39 hamming_ot_u128           -1.3855          0.917 Ok                 0
+   40 hamming_ot_u256         -0.341189          0.634 Ok                 0
+   41 hamming_ot_u512          0.574989          0.283 Ok                 0
+   42 linearcomp_high            499999          0.167 Ok                 0
+   43 linearcomp_mid             500000          0.667 Ok                 0
+   44 linearcomp_low             499999          0.167 Ok                 0
+   45 matrixrank_4096           4.32263          0.115 Ok                 0
+   46 matrixrank_4096_low8      1.96459          0.374 Ok                 0
+   47 matrixrank_8192          0.548381          0.760 Ok                 0
+   48 matrixrank_8192_low8      7.87195          0.020 Ok                 0
+   49 mod3                      1.19386          0.116 Ok                 0
+   50 sumcollector              30.9065          0.370 Ok                 0
+-------------------------------------------------------------------------------
+Passed:        50
+Suspicious:    0
+Failed:        0
+Quality (0-4): 4.00 (good)
+Elapsed time:  01:00:59
+Used seed:     none
+  Bytes processed: 2461844064256 (2^41.16, 10^12.39)
