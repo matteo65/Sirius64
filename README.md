@@ -17,6 +17,29 @@ uint64_t sirius64(uint64_t *state)
 **Seed**: all 64-bit values 
 
 ## SmokeRand v.0.48-gcc-linux Tests
+We decided to use [SmokeRand](https://github.com/alvoskov/SmokeRand) (**v. 0.48-gcc-linux64**) as an initial test tool rather than Dieharder as it is a new tool that we found to be more reliable and accurate.  
+We ran 12 full runs with 64-bit inputs; 10 runs with random seeds, and 2 runs with limit seeds (0 and MAX_UINT64).  
+The output files are in the [test_smokerand/](https://github.com/matteo65/Sirius64/tree/main/test_smokerand) directory.
+Each full run performs 50 tests, for a total of 600 tests.
+No failures were detected, and one suspect were found, a number consistent with the expected value.
+All runs scored a quality of 4 (good) on a scale from 0 to 4.  
+
+### SmokeRand Test Summary Table
+
+|# |         Seed       | Anomalies       |
+|--|--------------------|-----------------|
+|01|2369157498668639969 |       -         |
+|02|14269143917408480699|       -         |
+|03|4380167771877769980 |       -         |
+|04|16790869163370235529|       -         ||
+|05|11162697988881170641| test: **bspace8_8d_high** p-value: **1 - 5.63e-04** SUSPICIOUS|
+|06|15018305529109891896|       -         |
+|07|4094093812534875946 |       -         |
+|08|2259750328877818529 |       -         |
+|09|5627138766949811142 |       -         |
+|10|10129161356813192160|       -         |
+|11|0                   |       -         |
+|12|MAX_UINT64          |       -         |
 
 ## PractRand v.0.96 Tests
 
