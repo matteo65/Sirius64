@@ -164,5 +164,7 @@ This table displays the breakdown of p-values ​​close to 1 (top) and close t
 - Each run covered the range from **1 GB to 64 TB**.
 - Designed to detect weaknesses that may emerge only at very large output volumes.
 
-
 ## TestU01 v.1.2.3 Tests
+
+## Collision test
+
