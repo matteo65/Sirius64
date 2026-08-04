@@ -14,7 +14,7 @@ uint64_t sirius64(uint64_t *state)
 **Period**: $2^{64}$  
 **State**: 64 bit  
 **Output**: 64 bit  
-**Seed**: all 64-bit values 
+**Seed**: all 64-bit values  
 **Non-Cryptographic**
 
 ## SmokeRand v.0.48-gcc-linux Tests
