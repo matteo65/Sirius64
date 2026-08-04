@@ -172,8 +172,8 @@ Ten independent collision-counting runs were performed using different initial s
 
 For **16 × 10^9** generated 64-bit values, the theoretical expected number of collisions is **6.94**. The observed average was **6.8** collisions, showing excellent agreement with the random-mapping model. Individual runs produced between 2 and 13 collisions, a range fully consistent with the expected Poisson distribution governing collision events in a 64-bit output space.
 
-Report directory: [test_collision](https://github.com/matteo65/Sirius64/tree/main/test_collision)  
-ColFinder repository: [Colfinder](https://github.com/matteo65/colfinder)  
+**Report directory:** [test_collision](https://github.com/matteo65/Sirius64/tree/main/test_collision)  
+**ColFinder repository:** [Colfinder](https://github.com/matteo65/colfinder)  
 
 |#|Seed|# Collisions|
 |--|------------------|-|
