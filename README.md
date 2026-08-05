@@ -166,7 +166,7 @@ This table displays the breakdown of p-values ​​close to 1 (top) and close t
 - Designed to detect weaknesses that may emerge only at very large output volumes.
 
 ## TestU01 v.1.2.3 Tests
-A total of 300 BigCrush runs were performed using 100 independent seeds. For each seed, the High32, Mid32 and Low32 portions of the 64-bit output stream were tested separately, producing 48,000 individual TestU01 statistics.
+A total of **300 BigCrush** runs were performed using 100 independent seeds. For each seed, the High32, Mid32 and Low32 portions of the 64-bit output stream were tested separately, producing 48,000 individual TestU01 statistics.
 
 No failures were observed. A total of 104 anomalies were detected, compared to 96.0 expected under the null hypothesis of perfect randomness. The observed excess corresponds to only 0.82 standard deviations and is therefore statistically insignificant.
 
