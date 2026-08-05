@@ -374,7 +374,7 @@ For p-values close to **0**, the p-value itself is used. For p-values close to *
 Examples:  
 - p = 0.00042 → residual value = 0.00042
 - p = 0.99958 → residual value = 0.00042
-- p = 0.999991 → residual value = 9.0 × 10⁻⁶
+- p = 0.999991 → residual value = 9.0 × 10⁻⁶  
 This normalization allows upper-tail and lower-tail anomalies to be analyzed together and compared within the same magnitude intervals.  
 For a perfectly random generator, the residual values are expected to follow a uniform distribution, implying that the number of anomalies should decrease by approximately a factor of ten for each successive interval. The "Expected" column reports the theoretical counts derived from this model, while the "Found" column reports the observed values.
 
