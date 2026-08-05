@@ -188,6 +188,11 @@ Number of anomalies expected: **96.0**
 |**Total**|**100**|**100**|**100**|**300**|
 
 ### Details of anomalies for each session test
+<details>
+  <summary><b>Show</b></summary>
+
+
+
 | Test | high32 | mid32 | low32 |
 |------|--------|--------|--------|
 |00|25 ClosePairs NJumps, t = 16 (6.1e-6)|-|-|
@@ -291,7 +296,14 @@ Number of anomalies expected: **96.0**
 |98|-|-|-|
 |99|-|-|55 SampleCorr, k = 1 (0.9996)|
 
+
+</details>
+
 ### Ranking by frequency of anomalies
+<details>
+  <summary><b>Show</b></summary>
+
+
 |Anomaly|high32|mid32|low32|
 |-------|------|-----|-----|
 |11 CollisionOver, t = 21|3|4|1|
@@ -352,6 +364,9 @@ Number of anomalies expected: **96.0**
 |46 MaxOft AD, t = 8|0|0|1|
 |**Total**|**33**|**36**|**35**|
 |**Expected**|**32.0**|**32.0**|**32.0**|
+
+
+</details>
 
 ### Interval p-value distribution
 |p-value Interval|Found|**Expected**|
