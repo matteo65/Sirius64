@@ -369,6 +369,15 @@ Number of anomalies expected: **96.0**
 </details>
 
 ### Interval p-value distribution
+This table summarizes the distribution of anomalous p-values by order of magnitude.  
+For p-values close to **0**, the p-value itself is used. For p-values close to **1**, the residual value **(1 − p)** is used instead. In other words, all anomalies are measured by their distance from the nearest distribution boundary (0 or 1).  
+Examples:  
+- p = 0.00042 → residual value = 0.00042
+- p = 0.99958 → residual value = 0.00042
+- p = 0.999991 → residual value = 9.0 × 10⁻⁶
+This normalization allows upper-tail and lower-tail anomalies to be analyzed together and compared within the same magnitude intervals.  
+For a perfectly random generator, the residual values are expected to follow a uniform distribution, implying that the number of anomalies should decrease by approximately a factor of ten for each successive interval. The "Expected" column reports the theoretical counts derived from this model, while the "Found" column reports the observed values.
+
 |p-value Interval|Found|**Expected**|
 |----------------|-----|--------|
 |[1.0e-4, 1.0e-3)|90|**86.4**|
