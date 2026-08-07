@@ -425,7 +425,7 @@ For **16 × 10^9** generated 64-bit values, the theoretical expected number of c
 |01|0x1234567890abcdef|5|
 |02|0                 |7|
 |03|1                 |6|
-|04|MAX_UINT64        |8|
+|04|UINT64_MAX        |8|
 |05|123456789         |6|
 |06|15171584865647022546|13|
 |07|11223344556677889900|2|
