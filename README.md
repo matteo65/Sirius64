@@ -40,7 +40,7 @@ All runs scored a quality of 4 (good) on a scale from 0 to 4.
 |09|5627138766949811142 |       -         |
 |10|10129161356813192160|       -         |
 |11|0                   |       -         |
-|12|MAX_UINT64          |       -         |
+|12|UINT64_MAX          |       -         |
 
 ## PractRand v.0.96 Tests
 
