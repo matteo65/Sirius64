@@ -11,11 +11,12 @@ uint64_t sirius64(uint64_t *state)
 }
 ```
 ## Features
+**Non-Cryptographic**
 **Period**: $2^{64}$  
 **State**: 64 bit  
 **Output**: 64 bit  
 **Seed**: all 64-bit values  
-**Non-Cryptographic**
+
 
 ## SmokeRand v.0.48-gcc-linux Tests
 We decided to use [SmokeRand](https://github.com/alvoskov/SmokeRand) (**v. 0.48-gcc-linux64**) as an initial test tool rather than Dieharder as it is a new tool that we found to be more reliable and accurate.  
