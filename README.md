@@ -165,7 +165,7 @@ This table displays the breakdown of p-values ​​close to 1 (top) and close t
 - 12 independent `RNG_test` runs.
 - Each run covered the range from **1 GB to 64 TB**.
 - Designed to detect weaknesses that may emerge only at very large output volumes.
-- Output files available on [test_practrand/practrand/](https://github.com/matteo65/Sirius64/blob/main/test_practrand/)
+- Output files available on [test_practrand/](https://github.com/matteo65/Sirius64/blob/main/test_practrand/)
 
 |# |         Seed       | Anomalies       |
 |--|--------------------|-----------------|
@@ -184,7 +184,7 @@ Anomalies were evenly distributed across High32, Mid32 and Low32 outputs (33, 36
 
 Overall, the results are fully consistent with the behavior expected from a high-quality random number generator and provide no evidence of systematic statistical weaknesses.
 
-Output files available on [test bigbrush](https://github.com/matteo65/Sirius64/tree/main/testu01_bigcrush/)
+Output files available on [test bigbrush/](https://github.com/matteo65/Sirius64/tree/main/testu01_bigcrush/)
 
 Number of session tests: **100**  
 Number of big_crush runs: **300**  
