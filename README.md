@@ -162,9 +162,13 @@ This table displays the breakdown of p-values ​​close to 1 (top) and close t
 **No reproducible weakness was observed in this campaign.**
 
 ## Deep Campaign
-- 10 independent `RNG_test` runs.
+- 12 independent `RNG_test` runs.
 - Each run covered the range from **1 GB to 64 TB**.
 - Designed to detect weaknesses that may emerge only at very large output volumes.
+
+|# |         Seed       | Anomalies       |
+|--|--------------------|-----------------|
+  
 
 ## TestU01 v.1.2.3 Tests
 A total of **300 BigCrush** runs were performed using 100 independent seeds. For each seed, the High32, Mid32 and Low32 portions of the 64-bit output stream were tested separately, producing 48,000 individual TestU01 statistics.
