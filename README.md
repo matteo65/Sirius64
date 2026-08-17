@@ -184,6 +184,8 @@ Anomalies were evenly distributed across High32, Mid32 and Low32 outputs (33, 36
 
 Overall, the results are fully consistent with the behavior expected from a high-quality random number generator and provide no evidence of systematic statistical weaknesses.
 
+Output files available on [test bigbrush](https://github.com/matteo65/Sirius64/tree/main/testu01_bigcrush/)
+
 Number of session tests: **100**  
 Number of big_crush runs: **300**  
 Nomber of TestU01 statistics: **48000**  
