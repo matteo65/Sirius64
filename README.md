@@ -165,6 +165,7 @@ This table displays the breakdown of p-values ​​close to 1 (top) and close t
 - 12 independent `RNG_test` runs.
 - Each run covered the range from **1 GB to 64 TB**.
 - Designed to detect weaknesses that may emerge only at very large output volumes.
+- Report available on [test_practrand/practrand/](https://github.com/matteo65/Sirius64/blob/main/test_practrand/)
 
 |# |         Seed       | Anomalies       |
 |--|--------------------|-----------------|
