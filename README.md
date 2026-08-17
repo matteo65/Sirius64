@@ -168,7 +168,11 @@ This table displays the breakdown of p-values ​​close to 1 (top) and close t
 
 |# |         Seed       | Anomalies       |
 |--|--------------------|-----------------|
-  
+|1 |9743679751792029932 | -               |
+|2 |2183565420831062164 | -               |
+|3 |13370065392227974123| 1GB test: FPF/16:all p-value = 1-3.8e-4 unusual|
+|11|0                   | -               |
+|12|UINT64_MAX          | 128 GB test: FPF/16:all p-value = 4.7e-4 unusual<br>16 TB test: DC6-9x1Bytes-1 p-value = 1-3.4e-3 unusual|
 
 ## TestU01 v.1.2.3 Tests
 A total of **300 BigCrush** runs were performed using 100 independent seeds. For each seed, the High32, Mid32 and Low32 portions of the 64-bit output stream were tested separately, producing 48,000 individual TestU01 statistics.
