@@ -1,0 +1,76 @@
+sirius64 seed = 13370065392227974123
+
+RNG_test using PractRand version 0.96
+RNG = RNG_stdin64, seed = unknown
+test set = core, folding = standard (64 bit)
+
+rng=RNG_stdin64, seed=unknown
+length= 1 gigabyte (2^30 bytes), time= 11.7 seconds
+  Test Name                         Raw       Processed     Evaluation       
+  FPF/16:all                        R=  -4.7  p =1-3.8e-4   unusual          
+  ...and 226 test result(s) without anomalies
+
+rng=RNG_stdin64, seed=unknown
+length= 2 gigabytes (2^31 bytes), time= 23.7 seconds
+  no anomalies in 242 test result(s)
+
+rng=RNG_stdin64, seed=unknown
+length= 4 gigabytes (2^32 bytes), time= 48.0 seconds
+  no anomalies in 256 test result(s)
+
+rng=RNG_stdin64, seed=unknown
+length= 8 gigabytes (2^33 bytes), time= 95.3 seconds
+  no anomalies in 270 test result(s)
+
+rng=RNG_stdin64, seed=unknown
+length= 16 gigabytes (2^34 bytes), time= 188 seconds
+  no anomalies in 283 test result(s)
+
+rng=RNG_stdin64, seed=unknown
+length= 32 gigabytes (2^35 bytes), time= 370 seconds
+  no anomalies in 296 test result(s)
+
+rng=RNG_stdin64, seed=unknown
+length= 64 gigabytes (2^36 bytes), time= 732 seconds
+  no anomalies in 308 test result(s)
+
+rng=RNG_stdin64, seed=unknown
+length= 128 gigabytes (2^37 bytes), time= 1431 seconds
+  no anomalies in 320 test result(s)
+
+rng=RNG_stdin64, seed=unknown
+length= 256 gigabytes (2^38 bytes), time= 2833 seconds
+  no anomalies in 332 test result(s)
+
+rng=RNG_stdin64, seed=unknown
+length= 512 gigabytes (2^39 bytes), time= 5602 seconds
+  no anomalies in 343 test result(s)
+
+rng=RNG_stdin64, seed=unknown
+length= 1 terabyte (2^40 bytes), time= 11129 seconds
+  no anomalies in 354 test result(s)
+
+rng=RNG_stdin64, seed=unknown
+length= 2 terabytes (2^41 bytes), time= 22105 seconds
+  no anomalies in 364 test result(s)
+
+rng=RNG_stdin64, seed=unknown
+length= 4 terabytes (2^42 bytes), time= 43939 seconds
+  no anomalies in 374 test result(s)
+
+rng=RNG_stdin64, seed=unknown
+length= 8 terabytes (2^43 bytes), time= 87529 seconds
+  no anomalies in 383 test result(s)
+
+rng=RNG_stdin64, seed=unknown
+length= 16 terabytes (2^44 bytes), time= 176508 seconds
+  no anomalies in 392 test result(s)
+
+rng=RNG_stdin64, seed=unknown
+length= 32 terabytes (2^45 bytes), time= 354100 seconds
+  no anomalies in 400 test result(s)
+
+rng=RNG_stdin64, seed=unknown
+length= 64 terabytes (2^46 bytes), time= 694418 seconds
+  no anomalies in 407 test result(s)
+
