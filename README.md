@@ -421,7 +421,7 @@ This table displays the breakdown of p-values ​​close to 1 (top) and close t
 |Bottom Min Value|6.1e-6|2.9e-5|1.3e-4|
 |Bottom Standard Deviation|0.001338|0.001191|0.000966|
 
-## Collision Analysis
+## Collision Count
 Ten independent collision-counting runs were performed using different initial seeds. Exact collision counts were measured using **ColFinder**, an open-source tool developed specifically for large-scale PRNG collision analysis.
 
 For **16 × 10^9** generated 64-bit values, the theoretical expected number of collisions is **6.94**. The observed average was **6.8** collisions, showing excellent agreement with the random-mapping model. Individual runs produced between 2 and 13 collisions, a range fully consistent with the expected Poisson distribution governing collision events in a 64-bit output space.
