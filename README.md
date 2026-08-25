@@ -172,6 +172,9 @@ This table displays the breakdown of p-values ​​close to 1 (top) and close t
 |1 |9743679751792029932 | -               |
 |2 |2183565420831062164 | -               |
 |3 |13370065392227974123| 1GB test: FPF/16:all p-value = 1-3.8e-4 unusual|
+|4 |2238462460366867871 | -               |
+|5 |14342525201357417549| -               |
+|6 |1541033473771210326 | -               |
 |11|0                   | -               |
 |12|UINT64_MAX          | 128 GB test: FPF/16:all p-value = 4.7e-4 unusual<br>16 TB test: DC6-9x1Bytes-1 p-value = 1-3.4e-3 unusual|
 
