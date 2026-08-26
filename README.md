@@ -11,7 +11,7 @@ uint64_t sirius64(uint64_t *state)
 }
 ```
 ## Features
-**Non-Cryptographic**
+**Non-Cryptographic**  
 **Period**: $2^{64}$  
 **State**: 64 bit  
 **Output**: 64 bit  
