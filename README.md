@@ -452,6 +452,28 @@ For **16 × 10^9** generated 64-bit values, the theoretical expected number of c
 |10|13777961059468951567|8|
 |  |   **AVERAGE**          |**6.8**|
 
+## Hamming–Weight Dependencies Test
+A long-run validation is being conducted and has currently reached 6 PB without failures.  
+Testing will continue and results will be updated as additional milestones are achieved.
+
+- Test reference on [Testing Hamming–Weight Dependencies](https://prng.di.unimi.it/hwd.php)
+- Report available on [test_hwd/sirius64_hwd.txt](https://github.com/matteo65/Sirius64/blob/main/test_hwd/sirius64_hwd.txt)
+
+### Current result
+```text
+mix3 extreme = 1.86084 (sig = 00002000) weight 1 (16), p-value = 0.646
+mix3 extreme = 2.71224 (sig = 02100000) weight 2 (112), p-value = 0.528
+mix3 extreme = 2.70015 (sig = 20000201) weight 3 (448), p-value = 0.956
+mix3 extreme = 3.62871 (sig = 10200011) weight 4 (1120), p-value = 0.273
+mix3 extreme = 4.24392 (sig = 11211010) weight >=5 (4864), p-value = 0.101
+bits per word = 64 (analyzing bits); min category p-value = 0.101
+
+processed 6e+15 bytes in 1.86e+06 seconds (3.228 GB/s, 11.62 TB/h). Wed Aug 26 22:24:12 2026
+
+p = 0.414
+```
+
+
 ## Test Conclusion
 Sirius64 has successfully passed extensive empirical validation including TestU01 BigCrush, multiple PractRand runs up to 64 TB, collision-counting experiments consistent with theoretical expectations, and more than 5 PiB of Hamming-Weight Dependency testing without significant anomalies.  
 The combined evidence suggests no detectable statistical weaknesses within the tested range.  
