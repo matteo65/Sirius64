@@ -452,3 +452,7 @@ For **16 × 10^9** generated 64-bit values, the theoretical expected number of c
 |10|13777961059468951567|8|
 |  |   **AVERAGE**          |**6.8**|
 
+## Test Conclusion
+Sirius64 has successfully passed extensive empirical validation including TestU01 BigCrush, multiple PractRand runs up to 64 TB, collision-counting experiments consistent with theoretical expectations, and more than 5 PiB of Hamming-Weight Dependency testing without significant anomalies.  
+The combined evidence suggests no detectable statistical weaknesses within the tested range.  
+
