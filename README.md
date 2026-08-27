@@ -453,7 +453,7 @@ For **16 × 10^9** generated 64-bit values, the theoretical expected number of c
 |  |   **AVERAGE**          |**6.8**|
 
 ## Hamming–Weight Dependencies Test
-A long-run validation is being conducted and has currently reached 6 PB without failures.  
+A long-run validation (seed = 0x123456789ABCDEF) is being conducted and has currently reached 6 PB without failures.  
 Testing will continue and results will be updated as additional milestones are achieved.
 
 - Test reference on [Testing Hamming–Weight Dependencies](https://prng.di.unimi.it/hwd.php)
