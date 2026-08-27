@@ -1,5 +1,5 @@
 # Sirius64 Pseudo-Random Number Generator
-Sirius64 is a ultra-fast, minimalist, robust pseudo-random number generator (PRNG) designed for high-performance applications, simulations, and games. 
+Sirius64 is a ultra-fast, robust pseudo-random number generator (PRNG) designed for high-performance applications, simulations, and games. 
 
 ```C
 uint64_t sirius64(uint64_t *state) 
