@@ -187,7 +187,7 @@ No failures or suspicious results were observed. Three isolated "unusual" p-valu
 ## TestU01 v.1.2.3 Tests
 A total of **300 BigCrush** runs were performed using 100 independent seeds. For each seed, the High32, Mid32 and Low32 portions of the 64-bit output stream were tested separately, producing 48,000 individual TestU01 statistics.
 
-No failures were observed. A total of 104 anomalies were detected, compared to 96.0 expected under the null hypothesis of perfect randomness. The observed excess corresponds to only 0.82 standard deviations and is therefore statistically insignificant.
+No failures were observed. A total of 104 anomalies were detected, compared to 96.0 expected under the null hypothesis of perfect randomness.  
 
 Anomalies were evenly distributed across High32, Mid32 and Low32 outputs (33, 36 and 35 respectively), with no evidence of concentration in any specific test family. The balance between upper-tail and lower-tail p-values (54 vs 50) was close to ideal, and no p-values below 10⁻⁶ were observed.
 
