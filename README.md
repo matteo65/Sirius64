@@ -515,16 +515,17 @@ Model name:  Intel(R) Core(TM) Ultra 7 265H
 CPU family: 6  
 Model: 197  
 
-|Generator     |Cycles/64-bit|Relative Speed|
-|--------------|-------------|--------------|
-|SplitMix64    |    5.111    |    100%      |
-|Sirius64      |    5.143    |    99%       |
-|wyrand v.4    |    5.438    |    93%       |
-|xoshiro256**  |    6.364    |    80%       |
-|xoroshiro128++|    6.368    |    80%       |
-|xoshiro256++  |    6.445    |    79%       |
+|Generator      |Cycles/64-bit|Relative Speed|
+|---------------|-------------|--------------|
+|SplitMix64     | 4.996 | 100% |
+|Sirius64       | 5.042 | 99%  |
+|wyrand v.4     | 5.300 | 94%  |
+|romutrio       | 5.976 | 83%  |
+|xoshiro256**   | 6.200 | 80%  |
+|xoroshiro128++ | 6.321 | 79%  |
+|xoshiro256++   | 6.377 | 78%  |
 
-Sirius64 achieves performance comparable to SplitMix64, requiring only 5.14 CPU cycles per generated 64-bit value. Benchmark results show Sirius64 running within 1% of SplitMix64 and significantly faster than xoshiro256**, xoshiro256++, xoroshiro128++, and wyRand v4  
+Sirius64 achieves performance comparable to SplitMix64, requiring only 5.04 CPU cycles per generated 64-bit value. Benchmark results show Sirius64 running within 1% of SplitMix64 and significantly faster than xoshiro256**, xoshiro256++, xoroshiro128++, and wyRand v4  
 The benchmark was run on several other computers and in some cases the rankings changed as the fastest was wyrand, but sirius64 was always second, far ahead of the statistically sound algorithms.  
 In a ranking that includes only statistically solid generators, sirius64 turns out to be by far the fastest.
  
