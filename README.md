@@ -10,6 +10,19 @@ uint64_t sirius64(uint64_t *state)
 	return 0x9e3779b97f4a7c15ull * ((*state) ^ z ^ (z >> 17));
 }
 ```
+# Labor Omnia Vincit
+Sirius64 represents the culmination of more than six years of research dedicated to the design, analysis, and implementation of novel pseudorandom number generators and hash functions. During this journey, I designed and tested dozens of original algorithms, wrote thousands of lines of experimental code, and performed extensive validation against both theoretical expectations and empirical benchmarks.  
+
+The path was rarely straightforward. Many prototypes were abandoned after revealing subtle statistical weaknesses, insufficient diffusion properties, or structural limitations. Others showed promise but ultimately failed to meet the standards required for publication-quality results. Each success was built upon numerous failures, refinements, and new insights gained through continuous experimentation.  
+
+Throughout these years, I explored a wide range of techniques, from mixing functions and state-transition mechanisms to avalanche behavior, collision resistance, and large-scale statistical testing. Every design was evaluated not only for speed and simplicity, but also for its mathematical soundness and long-term statistical reliability.  
+
+Sirius64 is therefore more than a single algorithm. It is the result of accumulated experience, countless experiments, extensive testing, and a genuine fascination with the challenge of generating high-quality randomness from deterministic processes.  
+
+I hope that the work presented here may contribute, even in a small way, to the broader community of researchers, developers, and enthusiasts interested in random number generation. If the ideas, methods, results, or lessons learned from this project prove useful to others, then the effort invested over these years will have achieved its purpose.  
+
+## Summary
+
 **Sirius64 represents a major advancement in the landscape of non-cryptographic pseudo-random number generators (PRNGs), successfully reconciling extreme throughput with rigorous statistical quality.**  
 
 In contrast to traditional high-speed generators that often exhibit structural vulnerabilities under prolonged empirical testing, Sirius64 demonstrates flawless empirical behavior. It successfully clears all standard comprehensive testing suites, including deep **PractRand** evaluations and strict **collision tests**, proving capable of generating ideal, indistinguishable white noise.  
