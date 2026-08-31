@@ -453,7 +453,7 @@ For **16 × 10^9** generated 64-bit values, the theoretical expected number of c
 |  |   **AVERAGE**          |**6.8**|
 
 ## Hamming–Weight Dependencies Test
-A long-run validation (seed = 0x123456789ABCDEF) is being conducted and has currently reached 6 PB without failures.  
+A long-run validation (seed = 0x123456789ABCDEF) is being conducted and has currently reached 7 PB without failures.  
 Testing will continue and results will be updated as additional milestones are achieved.
 
 - Test reference on [Testing Hamming–Weight Dependencies](https://prng.di.unimi.it/hwd.php)
@@ -461,16 +461,16 @@ Testing will continue and results will be updated as additional milestones are a
 
 ### Current result
 ```text
-mix3 extreme = 1.86084 (sig = 00002000) weight 1 (16), p-value = 0.646
-mix3 extreme = 2.71224 (sig = 02100000) weight 2 (112), p-value = 0.528
-mix3 extreme = 2.70015 (sig = 20000201) weight 3 (448), p-value = 0.956
-mix3 extreme = 3.62871 (sig = 10200011) weight 4 (1120), p-value = 0.273
-mix3 extreme = 4.24392 (sig = 11211010) weight >=5 (4864), p-value = 0.101
-bits per word = 64 (analyzing bits); min category p-value = 0.101
+mix3 extreme = 1.42962 (sig = 00002000) weight 1 (16), p-value = 0.93
+mix3 extreme = 2.78010 (sig = 02100000) weight 2 (112), p-value = 0.457
+mix3 extreme = 2.71222 (sig = 00002011) weight 3 (448), p-value = 0.95
+mix3 extreme = 3.81522 (sig = 10200011) weight 4 (1120), p-value = 0.141
+mix3 extreme = 4.32730 (sig = 11211010) weight >=5 (4864), p-value = 0.0708
+bits per word = 64 (analyzing bits); min category p-value = 0.0708
 
-processed 6e+15 bytes in 1.86e+06 seconds (3.228 GB/s, 11.62 TB/h). Wed Aug 26 22:24:12 2026
+processed 7e+15 bytes in 2.16e+06 seconds (3.237 GB/s, 11.65 TB/h). Sun Aug 30 10:45:14 2026
 
-p = 0.414
+p = 0.307
 ```
 
 
