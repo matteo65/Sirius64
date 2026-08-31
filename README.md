@@ -38,6 +38,18 @@ This unique combination makes it an ideal candidate for high-performance computi
 **Output**: 64 bit  
 **Seed**: all 64-bit values  
 
+## Tools
+The [tools directory]((https://github.com/matteo65/Sirius64/blob/main/tools) contains the sources of the programs used to run tests and benchmarks.
+
+|Source         |   Note   |
+|---------------|------------------------------|
+|sirius64gen.c  |Writes a continuous stream of binary numbers to stdout|
+|testu01_sirius64_high32.c|Run the TestU01 test on the high 32 bits|
+|testu01_sirius64_mid32.c|Run the TestU01 test on the middle 32 bits|
+|testu01_sirius64_low32.c|Run the TestU01 test on the low 32 bits|
+|hwd.c prngs_hwd.c |Run Hamming–Weight Dependencies Test|
+|benchmark.c |Run benchmark|
+
 ## SmokeRand v.0.48-gcc-linux Tests
 We decided to use [SmokeRand](https://github.com/alvoskov/SmokeRand) (**v. 0.48-gcc-linux64**) as an initial test tool rather than Dieharder as it is a new tool that we found to be more reliable and accurate.  
 We ran 12 full runs with 64-bit inputs; 10 runs with random seeds, and 2 runs with limit seeds (0 and UINT64_MAX).  
