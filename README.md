@@ -475,6 +475,6 @@ p = 0.307
 
 
 ## Test Conclusion
-Sirius64 has successfully passed extensive empirical validation including TestU01 BigCrush, multiple PractRand runs up to 64 TB, collision-counting experiments consistent with theoretical expectations, and more than 6 PiB of Hamming-Weight Dependency testing without significant anomalies.  
+Sirius64 has successfully passed extensive empirical validation including TestU01 BigCrush, multiple PractRand runs up to 64 TB, collision-counting experiments consistent with theoretical expectations, and more than 7 PiB of Hamming-Weight Dependency testing without significant anomalies.  
 The combined evidence suggests no detectable statistical weaknesses within the tested range.  
 
