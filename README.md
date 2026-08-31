@@ -478,3 +478,35 @@ p = 0.307
 Sirius64 has successfully passed extensive empirical validation including TestU01 BigCrush, multiple PractRand runs up to 64 TB, collision-counting experiments consistent with theoretical expectations, and more than 7 PiB of Hamming-Weight Dependency testing without significant anomalies.  
 The combined evidence suggests no detectable statistical weaknesses within the tested range.  
 
+## Benchmark
+### Characteristics of the computer where the benchmark was run
+**OS**: Ubuntu 24.04.4 LTS
+**Kernel**: Linux 6.6.87.2-microsoft-standard-WSL2
+**gcc** (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0
+**CPU**
+Architecture: x86_64  
+CPU op-mode(s): 32-bit, 64-bit  
+Address sizes: 46 bits physical, 48 bits virtual  
+Byte Order: Little Endian  
+CPU(s): 16  
+On-line CPU(s) list:  0-15    
+Vendor ID:  GenuineIntel  
+Model name:  Intel(R) Core(TM) Ultra 7 265H  
+CPU family: 6  
+Model: 197  
+
+|Generator     |Cycles/64-bit|Relative Speed|
+|--------------|-------------|--------------|
+|SplitMix64    |    5.111    |    100%      |
+|Sirius64      |    5.143    |    99%       |
+|wyrand v.4    |    5.438    |    93%       |
+|xoshiro256**  |    6.364    |    80%       |
+|xoroshiro128++|    6.368    |    80%       |
+|xoshiro256++  |    6.445    |    79%       |
+
+Sirius64 achieves performance comparable to SplitMix64, requiring only 5.14 CPU cycles per generated 64-bit value. Benchmark results show Sirius64 running within 1% of SplitMix64 and significantly faster than xoshiro256**, xoshiro256++, xoroshiro128++, and wyRand v4
+ 
+ 
+ 
+
+
