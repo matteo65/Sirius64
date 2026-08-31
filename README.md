@@ -11,7 +11,7 @@ uint64_t sirius64(uint64_t *state)
 }
 ```
 # Labor Omnia Vincit
-Sirius64 represents the culmination of more than six years of research dedicated to the design, analysis, and implementation of novel pseudorandom number generators and hash functions. During this journey, I designed and tested dozens of original algorithms, wrote thousands of lines of experimental code, and performed extensive validation against both theoretical expectations and empirical benchmarks.  
+This project is the culmination of more than six years of research dedicated to the design, analysis, and implementation of novel pseudorandom number generators and hash functions. During this journey, I designed and tested dozens of original algorithms, wrote thousands of lines of experimental code, and performed extensive validation against both theoretical expectations and empirical benchmarks.  
 
 The path was rarely straightforward. Many prototypes were abandoned after revealing subtle statistical weaknesses, insufficient diffusion properties, or structural limitations. Others showed promise but ultimately failed to meet the standards required for publication-quality results. Each success was built upon numerous failures, refinements, and new insights gained through continuous experimentation.  
 
