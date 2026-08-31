@@ -524,7 +524,9 @@ Model: 197
 |xoroshiro128++|    6.368    |    80%       |
 |xoshiro256++  |    6.445    |    79%       |
 
-Sirius64 achieves performance comparable to SplitMix64, requiring only 5.14 CPU cycles per generated 64-bit value. Benchmark results show Sirius64 running within 1% of SplitMix64 and significantly faster than xoshiro256**, xoshiro256++, xoroshiro128++, and wyRand v4
+Sirius64 achieves performance comparable to SplitMix64, requiring only 5.14 CPU cycles per generated 64-bit value. Benchmark results show Sirius64 running within 1% of SplitMix64 and significantly faster than xoshiro256**, xoshiro256++, xoroshiro128++, and wyRand v4  
+The benchmark was run on several other computers and in some cases the rankings changed as the fastest was wyrand, but sirius64 was always second, far ahead of the statistically sound algorithms.  
+In a ranking that includes only statistically solid generators, sirius64 turns out to be by far the fastest.
  
  
  
