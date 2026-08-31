@@ -39,7 +39,7 @@ This unique combination makes it an ideal candidate for high-performance computi
 **Seed**: all 64-bit values  
 
 ## Tools
-The [tools directory]((https://github.com/matteo65/Sirius64/blob/main/tools) contains the sources of the programs used to run tests and benchmarks.
+The [tools directory](https://github.com/matteo65/Sirius64/blob/main/tools) contains the sources of the programs used to run tests and benchmarks.
 
 |Source         |   Note   |
 |---------------|------------------------------|
