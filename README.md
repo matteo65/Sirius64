@@ -11,7 +11,9 @@ uint64_t sirius64(uint64_t *state)
 }
 ```
 **Sirius64 represents a major advancement in the landscape of non-cryptographic pseudo-random number generators (PRNGs), successfully reconciling extreme throughput with rigorous statistical quality.**  
+
 In contrast to traditional high-speed generators that often exhibit structural vulnerabilities under prolonged empirical testing, Sirius64 demonstrates flawless empirical behavior. It successfully clears all standard comprehensive testing suites, including deep **PractRand** evaluations and strict **collision tests**, proving capable of generating ideal, indistinguishable white noise.  
+
 Consequently, **until proven otherwise, Sirius64 stands as the fastest statistically sound PRNG in existence**, delivering near-optimal CPU cycle efficiency without compromising statistical integrity.   
 This unique combination makes it an ideal candidate for high-performance computing, large-scale Monte Carlo simulations, and environments where execution speed and absolute statistical reliability are both critical constraints.
 
