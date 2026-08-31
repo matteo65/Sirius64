@@ -1,4 +1,4 @@
-sirius64 seed = 0
+sirius64 seed = 0 
 
 RNG_test using PractRand version 0.96
 RNG = RNG_stdin64, seed = unknown
