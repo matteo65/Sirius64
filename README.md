@@ -515,19 +515,20 @@ Model name:  Intel(R) Core(TM) Ultra 7 265H
 CPU family: 6  
 Model: 197  
 
-|Generator      |Cycles/64-bit|Relative Speed|
-|---------------|-------------|--------------|
-|SplitMix64     | 4.996 | 100% |
-|Sirius64       | 5.042 | 99%  |
-|wyrand v.4     | 5.300 | 94%  |
-|romutrio       | 5.976 | 83%  |
-|xoshiro256**   | 6.200 | 80%  |
-|xoroshiro128++ | 6.321 | 79%  |
-|xoshiro256++   | 6.377 | 78%  |
+| Generator      | Cycles/64-bit|Relative Speed|
+|----------------|--------------|--------------|
+| SplitMix64        | 5.212       | 100.0%
+| Sirius64          | 5.234       | 99.6%
+| wyrand v.4        | 5.524       | 94.4%
+| romutrio          | 5.913       | 88.1%
+| xoshiro256**      | 6.387       | 81.6%
+| xoshiro256++      | 6.525       | 79.9%
+| xoroshiro128++    | 6.681       | 78.0%
+| Pgc64 RXS-M-XS    | 7.211       | 72.3%
 
-Sirius64 achieves performance comparable to SplitMix64, requiring only 5.04 CPU cycles per generated 64-bit value. Benchmark results show Sirius64 running within 1% of SplitMix64 and significantly faster than xoshiro256**, xoshiro256++, xoroshiro128++, and wyRand v4  
-The benchmark was run on several other computers and in some cases the rankings changed as the fastest was wyrand, but sirius64 was always second, far ahead of the statistically sound algorithms.  
-In a ranking that includes only statistically solid generators, sirius64 turns out to be by far the fastest.
+Sirius64 achieves performance comparable to SplitMix64, requiring only 5.2 CPU cycles for each 64-bit value generated. Benchmark results show that Sirius64 performs virtually equally well to SplitMix64 and is significantly faster than all others.  
+The benchmark was run on several other computers, and in some cases the rankings changed, with wyrand proving to be the fastest, while sirius64 was slightly slower, but still significantly faster than the statistically valid algorithms.  
+In a ranking that includes only statistically valid generators, sirius64 was by far the fastest.
  
  
  
