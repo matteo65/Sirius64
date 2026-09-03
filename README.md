@@ -10,6 +10,23 @@ uint64_t sirius64(uint64_t *state)
 	return 0x9e3779b97f4a7c15ull * ((*state) ^ z ^ (z >> 17));
 }
 ```
+## PRNG Comparison Table
+| Generator       | State | Relative Speed |Practrand|TestU01|Collision 64|
+|-----------------|-------|----------------|---------|-------|------------|
+| splitmix64      |  64   | 100.0%         |  Yes    |  Yes  |    No      |
+| **sirius64**    |  64   |  **99.6%**     |**Yes**  |**Yes**|  **Yes**   |
+| wyrand a_par    |  64   |  95.9%         |  Yes    |  Yes  |    Yes     |
+| wyrand 4.3      |  64   |  94.8%         |  Yes    |  Yes  |    No      |
+| romutrio        | 192   |  85.3%         |  Yes    |  Yes  |    Yes     |
+| xoshiro256**    | 256   |  81.0%         |  Yes    |  Yes  |    Yes     |
+| xoroshiro128aox | 256   |  80.1%         |  Yes    |  Yes  |    Yes     |
+| xoroshiro128++  | 128   |  79.2%         |  Yes    |  Yes  |    Yes     |
+| xoshiro256++    | 256   |  78.7%         |  Yes    |  Yes  |    Yes     |
+| pgc64 RXS-M-XS  |  64   |  72.6%         |  Yes    |  Yes  |    No      |
+| pgc64 DXSM      | 128   |  57.8%         |  Yes    |  Yes  |    Yes     |
+
+**Sirius64 is the fastest of all statistically valid generators**
+
 # _Labor Omnia Vincit_
 This project is the culmination of more than six years of research dedicated to the design, analysis, and implementation of novel pseudorandom number generators and hash functions. During this journey, I designed and tested dozens of original algorithms, wrote thousands of lines of experimental code, and performed extensive validation against both theoretical expectations and empirical benchmarks.  
 
