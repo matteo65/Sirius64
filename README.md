@@ -542,10 +542,5 @@ Model: 197
 | Pgc64 DXSM        | 8.623         |  57.8%         |
 
 Sirius64 achieves performance comparable to SplitMix64, requiring only 5.0 CPU cycles for each 64-bit value generated. Benchmark results show that Sirius64 performs virtually equally well to SplitMix64 and is significantly faster than all others.  
-The benchmark was run on several other computers, and in some cases the rankings changed, with wyrand proving to be the fastest, while sirius64 was slightly slower, but still significantly faster than the statistically valid algorithms.  
-In a ranking that includes only statistically valid generators, sirius64 was by far the fastest.
- 
- 
- 
-
-
+Please note that SplitMix64 is not statistically valid as it fails the 64-bit collisions test.  
+The benchmark was run on several other computers, and in some cases the rankings changed, but sirius64 is still the fastest of all statistically valid generators.  
