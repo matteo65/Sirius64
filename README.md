@@ -14,7 +14,7 @@ uint64_t sirius64(uint64_t *state)
 | Generator       | State | Relative Speed |Practrand|TestU01|Collision 64|
 |-----------------|-------|----------------|---------|-------|------------|
 | splitmix64      |  64   | 100.0%         |  Yes    |  Yes  |    No      |
-| **sirius64**    |  64   |  **99.6%**     |**Yes**  |**Yes**|  **Yes**   |
+| **sirius64**    |**64** |  **99.6%**     |**Yes**  |**Yes**|  **Yes**   |
 | wyrand a_par    |  64   |  95.9%         |  Yes    |  Yes  |    Yes     |
 | wyrand 4.3      |  64   |  94.8%         |  Yes    |  Yes  |    No      |
 | romutrio        | 192   |  85.3%         |  Yes    |  Yes  |    Yes     |
