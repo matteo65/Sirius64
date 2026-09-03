@@ -527,18 +527,21 @@ Model name:  Intel(R) Core(TM) Ultra 7 265H
 CPU family: 6  
 Model: 197  
 
-| Generator      | Cycles/64-bit|Relative Speed|
-|----------------|--------------|--------------|
-| SplitMix64        | 5.212       | 100.0%
-| Sirius64          | 5.234       | 99.6%
-| wyrand v.4        | 5.524       | 94.4%
-| romutrio          | 5.913       | 88.1%
-| xoshiro256**      | 6.387       | 81.6%
-| xoshiro256++      | 6.525       | 79.9%
-| xoroshiro128++    | 6.681       | 78.0%
-| Pgc64 RXS-M-XS    | 7.211       | 72.3%
+| Generator         | Cycles/64-bit | Relative Speed |
+|-------------------|---------------|----------------|
+| SplitMix64        | 4.985         | 100.0%         |
+| Sirius64          | 5.007         |  99.6%         |
+| wyrand a_par      | 5.201         |  95.9%         |
+| wyrand v.4.3      | 5.259         |  94.8%         |
+| romutrio          | 5.842         |  85.3%         |
+| xoshiro256**      | 6.158         |  81.0%         |
+| xoroshiro128aox   | 6.227         |  80.1%         |
+| xoroshiro128++    | 6.295         |  79.2%         |
+| xoshiro256++      | 6.331         |  78.7%         |
+| Pgc64 RXS-M-XS    | 6.870         |  72.6%         |
+| Pgc64 DXSM        | 8.623         |  57.8%         |
 
-Sirius64 achieves performance comparable to SplitMix64, requiring only 5.2 CPU cycles for each 64-bit value generated. Benchmark results show that Sirius64 performs virtually equally well to SplitMix64 and is significantly faster than all others.  
+Sirius64 achieves performance comparable to SplitMix64, requiring only 5.0 CPU cycles for each 64-bit value generated. Benchmark results show that Sirius64 performs virtually equally well to SplitMix64 and is significantly faster than all others.  
 The benchmark was run on several other computers, and in some cases the rankings changed, with wyrand proving to be the fastest, while sirius64 was slightly slower, but still significantly faster than the statistically valid algorithms.  
 In a ranking that includes only statistically valid generators, sirius64 was by far the fastest.
  
