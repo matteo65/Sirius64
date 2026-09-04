@@ -25,7 +25,7 @@ uint64_t sirius64(uint64_t *state)
 | pgc64 RXS-M-XS  |  64   |  72.6%         |  Yes    |  Yes  |    No      |
 | pgc64 DXSM      | 128   |  57.8%         |  Yes    |  Yes  |    Yes     |
 
-**Sirius64 is the fastest of all statistically valid generators**
+**Sirius64 is the fastest of all statistically valid generators in this table**
 
 # _Labor Omnia Vincit_
 This project is the culmination of more than six years of research dedicated to the design, analysis, and implementation of novel pseudorandom number generators and hash functions. During this journey, I designed and tested dozens of original algorithms, wrote thousands of lines of experimental code, and performed extensive validation against both theoretical expectations and empirical benchmarks.  
