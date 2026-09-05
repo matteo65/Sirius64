@@ -502,7 +502,7 @@ For **16 × 10^9** generated 64-bit values, the theoretical expected number of c
 |  |   **AVERAGE**          |**6.8**|
 
 ## Hamming–Weight Dependencies Test
-A long-run validation (seed = 0x123456789ABCDEF) is being conducted and has currently reached 7 PB without failures.  
+A long-run validation (seed = 0x123456789ABCDEF) is being conducted and has currently reached 8.5 PB without failures.  
 Testing will continue and results will be updated as additional milestones are achieved.
 
 - Test reference on [Testing Hamming–Weight Dependencies](https://prng.di.unimi.it/hwd.php)
@@ -510,21 +510,20 @@ Testing will continue and results will be updated as additional milestones are a
 
 ### Current result
 ```text
-mix3 extreme = 1.42962 (sig = 00002000) weight 1 (16), p-value = 0.93
-mix3 extreme = 2.78010 (sig = 02100000) weight 2 (112), p-value = 0.457
-mix3 extreme = 2.71222 (sig = 00002011) weight 3 (448), p-value = 0.95
-mix3 extreme = 3.81522 (sig = 10200011) weight 4 (1120), p-value = 0.141
-mix3 extreme = 4.32730 (sig = 11211010) weight >=5 (4864), p-value = 0.0708
-bits per word = 64 (analyzing bits); min category p-value = 0.0708
+mix3 extreme = 1.76049 (sig = 00000200) weight 1 (16), p-value = 0.729
+mix3 extreme = 2.33753 (sig = 10002000) weight 2 (112), p-value = 0.889
+mix3 extreme = 2.83939 (sig = 21001000) weight 3 (448), p-value = 0.869
+mix3 extreme = 3.33691 (sig = 20000211) weight 4 (1120), p-value = 0.613
+mix3 extreme = 3.61592 (sig = 11211010) weight >=5 (4864), p-value = 0.767
+bits per word = 64 (analyzing bits); min category p-value = 0.613
 
-processed 7e+15 bytes in 2.16e+06 seconds (3.237 GB/s, 11.65 TB/h). Sun Aug 30 10:45:14 2026
+processed 8.5e+15 bytes in 2.63e+06 seconds (3.234 GB/s, 11.64 TB/h). Fri Sep  4 20:09:13 2026
 
-p = 0.307
+p = 0.991
 ```
 
-
 ## Test Conclusion
-Sirius64 has successfully passed extensive empirical validation including TestU01 BigCrush, multiple PractRand runs up to 64 TB, collision-counting experiments consistent with theoretical expectations, and more than 7 PiB of Hamming-Weight Dependency testing without significant anomalies.  
+Sirius64 has successfully passed extensive empirical validation including TestU01 BigCrush, multiple PractRand runs up to 64 TB, collision-counting experiments consistent with theoretical expectations, and more than 8.5 PiB of Hamming-Weight Dependency testing without significant anomalies.  
 The combined evidence suggests no detectable statistical weaknesses within the tested range.  
 
 ## Benchmark
