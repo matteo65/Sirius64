@@ -69,7 +69,6 @@ void usage(void)
 {
 	printf("testu01_sirius64_low32 - Run TestU01 SmallCrush, Crush and BigCrush on sirius64 (low 32 bits)\n\n");
 	printf("Usage: testu01_sirius64_low32 [(small | crush | big) <seed>]\n\n");
-	printf("The seed must be non-zero\n");
 }
 
 int main(int argc, char *argv[])
@@ -98,15 +97,10 @@ int main(int argc, char *argv[])
 		fprintf(stderr, "*** Error: invalid arguments\n");
 		return 1;
 	}
-	
-	if(state == 0) {
-		fprintf(stderr, "*** Error: seed must be non-zero\n");
-		return 1; 
-	}
 
-	unif01_Gen *gen = unif01_CreateExternGenBits("Sirius64low32", sirius64low32);
+	unif01_Gen *gen = unif01_CreateExternGenBits("sirius64 low32", sirius64low32);
 
-	printf("=== TestU01 - Generator: Sirius64low32 ===\n");
+	printf("=== TestU01 - Generator: sirius64 low32 ===\n");
 	printf("Seed: %llu\n", (unsigned long long) state);
 
 	if (strcmp(test_type, "small") == 0) {
