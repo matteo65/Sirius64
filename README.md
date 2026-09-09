@@ -211,7 +211,7 @@ This table displays the breakdown of p-values ​​close to 1 (top) and close t
 **No reproducible weakness was observed in this campaign.**
 
 ## Deep Campaign
-- 12 independent `RNG_test` runs.
+- 12 independent `RNG_test` runs + 4 runs on reversed bit
 - Each run covered the range from **1 GB to 64 TB**.
 - Designed to detect weaknesses that may emerge only at very large output volumes.
 - Output files available on [test_practrand/](https://github.com/matteo65/Sirius64/blob/main/test_practrand/)
@@ -220,7 +220,7 @@ This table displays the breakdown of p-values ​​close to 1 (top) and close t
 |--|--------------------|-----------------|
 |01|9743679751792029932 | -               |
 |02|2183565420831062164 | -               |
-|03|13370065392227974123| 1GB test: FPF/16:all p-value = 1-3.8e-4 unusual|
+|03|13370065392227974123| 1GB: FPF/16:all p-value = 1-3.8e-4 unusual|
 |04|2238462460366867871 | -               |
 |05|14342525201357417549| -               |
 |06|1541033473771210326 | -               |
@@ -229,7 +229,15 @@ This table displays the breakdown of p-values ​​close to 1 (top) and close t
 |09|9067208584599398542 | -               |
 |10|10659961338205357269| -               |
 |11|0                   | -               |
-|12|UINT64_MAX          | 128 GB test: FPF/16:all p-value = 4.7e-4 unusual<br>16 TB test: DC6-9x1Bytes-1 p-value = 1-3.4e-3 unusual|
+|12|UINT64_MAX          | 128 GB: FPF/16:all p-value = 4.7e-4 unusual<br>16 TB: DC6-9x1Bytes-1 p-value = 1-3.4e-3 unusual|
+
+### Reverse bit
+|# |         Seed       | Anomalies       |
+|--|--------------------|-----------------|
+|01|9743679751792029932 | 16TB: [Low4/64]mod3n(5):(0,9-0) p-value = 1-1.2e-4 unusual|
+|02|1234567890          | 32GB: [Low1/64]BCFN(2+1,13-1U) p-value = 1-1.8e-4 unusual<br>64GB: DC6-9x1Bytes-1 p-value = 1.0e-3 unusual|
+|03|9876543210          | -                |
+|04|111222333444555666  | 256GB: [Low1/64]BCFN(2+0,13-0U) p-value = 6.4e-4 unusual<br>32TB: [Low4/64]BCFN(2+0,13-0U) p-value = 1-1.4e-4 unusual|
 
 No failures or suspicious results were observed. Three isolated "unusual" p-values appeared across the entire test campaign, all at different seeds and data volumes, with no recurrence or progressive deterioration. The observed behaviour is consistent with the expected statistical false-positive rate of PractRand.
 
