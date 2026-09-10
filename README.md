@@ -231,7 +231,7 @@ This table displays the breakdown of p-values ​​close to 1 (top) and close t
 |11|0                   | -               |
 |12|UINT64_MAX          | 128 GB: FPF/16:all p-value = 4.7e-4 unusual<br>16 TB: DC6-9x1Bytes-1 p-value = 1-3.4e-3 unusual|
 
-### Reverse bit
+### Bit reverse
 |# |         Seed       | Anomalies       |
 |--|--------------------|-----------------|
 |01|9743679751792029932 | 16TB: [Low4/64]mod3n(5):(0,9-0) p-value = 1-1.2e-4 unusual|
