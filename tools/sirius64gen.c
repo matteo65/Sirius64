@@ -10,7 +10,7 @@
  * Compile: gcc -O3 sirius64gen.c -o sirius64gen
  *
  * Sintax:
- *  sirius64gen [-r | <seed> [-low32 | -mid32 | -high32]  [-reverse]]
+ *  sirius64gen [-r | <seed> [-low32 | -mid32 | -high32]  [-bitreverse | -bytereverse]]
  *
  *  sirius64gen                  Print help
  *  sirius64gen -r               Random seed (print value on stderr)
@@ -46,7 +46,7 @@ void usage(void)
 {
 	printf("sirius64gen - Continuous sirius64 stdout pseudo number 64bit generator in binary format\n");
 	printf("Usage:\n");
-	printf("      sirius64gen [-r | <seed> [-low32 | -mid32 | -high32] [-reverse]]\n");
+	printf("      sirius64gen [-r | <seed> [-low32 | -mid32 | -high32] [-bitreverse | -bytereverse]]\n");
 	printf("\n");
 	printf("      sirius64gen           Print help\n");
 	printf("      sirius64gen -r        Random seed (print value on stderr)\n");
@@ -55,7 +55,8 @@ void usage(void)
 	printf("option -low32: write on stdout the lowest 32 bit instead full 64 bit\n");
 	printf("option -mid32:  write on stdout the middle 32 bit instead full 64 bit\n");
 	printf("option -high32: write on stdout the highest 32 bit instead full 64 bit\n");
-	printf("option -reverse: reverse bit\n");
+	printf("option -bitreverse: reverse bit\n");
+	printf("option -bytereverse: reverse byte\n");
 }
 
 // Return 1 id str a uint64_t, 0 else
@@ -115,11 +116,18 @@ uint64_t random_from_clock(void)
 int check_low_high(char *option)
 {
 	if(strcmp(option, "-low32") == 0) return -32;
-
 	if(strcmp(option, "-high32") == 0) return +32;
-
 	if(strcmp(option, "-mid32") == 0) return 1;
+	return 0;
+}
 
+// Return +1 if option = "-bitreverse"
+//        -1 if option = "-bytereverse"
+//         0 else
+int check_reverse(char *option)
+{
+	if(strcmp(option, "-bitreverse") == 0) return +1;
+	if(strcmp(option, "-bytereverse") == 0) return -1;
 	return 0;
 }
 
@@ -141,6 +149,21 @@ uint32_t bit_reverse32(uint32_t x) {
     return (x << 16) | (x >> 16);
 }
 
+uint64_t byte_reverse64(uint64_t x)
+{
+	x = ((x << 8) & 0xFF00FF00FF00FF00ULL) | ((x >> 8) & 0x00FF00FF00FF00FFULL);
+    x = ((x << 16) & 0xFFFF0000FFFF0000ULL) | ((x >> 16) & 0x0000FFFF0000FFFFULL);
+    return (x << 32) | (x >> 32);
+}
+
+uint64_t byte_reverse32(uint32_t x)
+{
+	return ((x & 0x000000FFU) << 24) |
+           ((x & 0x0000FF00U) <<  8) |
+           ((x & 0x00FF0000U) >>  8) |
+           ((x & 0xFF000000U) >> 24);
+}
+
 void invalid_arguments(void)
 {
 	fprintf(stderr, "*** Error: invalid arguments\n");
@@ -150,8 +173,8 @@ int main(int argc, char *argv[])
 {
 	uint64_t state;
 	int random_option = 0;
-	int low_high_option = 0;
-	int reverse_option = 0;
+	int low_high_option = 0; // values: 0, 1, +32 -32
+	int reverse_option = 0; // values: 0, +1, -1 +1=bit -1=byte 
 
 	if(argc <= 1) {
 		usage();
@@ -160,7 +183,7 @@ int main(int argc, char *argv[])
 	
 	// Check second argument: -reverse or -low32 or -mid32 or -high32
 	if(argc > 2) {
-		reverse_option = strcmp(argv[2], "-reverse") == 0;
+		reverse_option = check_reverse(argv[2]);
 		if(reverse_option) {
 			if(argc > 3) {
 				invalid_arguments();
@@ -170,7 +193,7 @@ int main(int argc, char *argv[])
 		else {
 			low_high_option = check_low_high(argv[2]);
 			if(argc == 4) {
-				reverse_option = strcmp(argv[3], "-reverse") == 0;
+				reverse_option = check_reverse(argv[3]);;
 			}
 			if(argc > 4 || !low_high_option && !reverse_option) {
 				invalid_arguments();
@@ -195,7 +218,12 @@ int main(int argc, char *argv[])
 		for(;;) {
 			for(int i = 0; i < BUF_SIZE; i++) {
 				uint32_t r = (uint32_t)sirius64(&state);
-				buffer[i] = reverse_option ? bit_reverse32(r) : r;
+				if(reverse_option) {
+					buffer[i] = reverse_option == 1 ? bit_reverse32(r) : byte_reverse32(r);	
+				}
+				else {
+					buffer[i] = r;
+				}
 			}
 			fwrite(buffer, sizeof(uint32_t), BUF_SIZE, stdout);
 		}
@@ -205,7 +233,12 @@ int main(int argc, char *argv[])
 		for(;;) {
 			for(int i = 0; i < BUF_SIZE; i++) {
 				uint32_t r = (uint32_t)(sirius64(&state) >> 32);
-				buffer[i] = reverse_option ? bit_reverse32(r) : r;
+				if(reverse_option) {
+					buffer[i] = reverse_option == 1 ? bit_reverse32(r) : byte_reverse32(r);	
+				}
+				else {
+					buffer[i] = r;
+				}
 			}
 			fwrite(buffer, sizeof(uint32_t), BUF_SIZE, stdout);
 		}
@@ -215,7 +248,12 @@ int main(int argc, char *argv[])
 		for(;;) {
 			for(int i = 0; i < BUF_SIZE; i++) {
 				uint32_t r = (uint32_t)(sirius64(&state) >> 16);
-				buffer[i] = reverse_option ? bit_reverse32(r) : r;
+				if(reverse_option) {
+					buffer[i] = reverse_option == 1 ? bit_reverse32(r) : byte_reverse32(r);	
+				}
+				else {
+					buffer[i] = r;
+				}
 			}
 			fwrite(buffer, sizeof(uint32_t), BUF_SIZE, stdout);
 		}
@@ -225,7 +263,12 @@ int main(int argc, char *argv[])
 		for(;;) {
 			for(int i = 0; i < BUF_SIZE; i++) {
 				uint64_t r = sirius64(&state);
-				buffer[i] = reverse_option ? bit_reverse64(r) : r;
+				if(reverse_option) {
+					buffer[i] = reverse_option == 1 ? bit_reverse64(r) : byte_reverse64(r);	
+				}
+				else {
+					buffer[i] = r;
+				}
 			}
 			fwrite(buffer, sizeof(uint64_t), BUF_SIZE, stdout);
 		}
