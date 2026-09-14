@@ -211,7 +211,7 @@ This table displays the breakdown of p-values ​​close to 1 (top) and close t
 **No reproducible weakness was observed in this campaign.**
 
 ## Deep Campaign
-- 12 independent `RNG_test` runs + 5 runs on reversed bit
+- 12 independent `RNG_test` runs + 7 runs on reversed bit
 - Each run covered the range from **1 GB to 64 TB**.
 - Designed to detect weaknesses that may emerge only at very large output volumes.
 - Output files available on [test_practrand/](https://github.com/matteo65/Sirius64/blob/main/test_practrand/)
@@ -239,6 +239,8 @@ This table displays the breakdown of p-values ​​close to 1 (top) and close t
 |03|9876543210          | -                |
 |04|111222333444555666  | 256GB: [Low1/64]BCFN(2+0,13-0U) p-value = 6.4e-4 unusual<br>32TB: [Low4/64]BCFN(2+0,13-0U) p-value = 1-1.4e-4 unusual|
 |05|123123123123123123  | 2GB: BCFN(2+9,13-5U) R= +13.7 p = 1.5e-5 unusual|
+|06|                    |                  |
+|07|0x5555555555555555  | [Low4/64]Gap-16:A R= +5.7 p = 4.3e-4 unusual|
 
 No failures or suspicious results were observed. Three isolated "unusual" p-values appeared across the entire test campaign, all at different seeds and data volumes, with no recurrence or progressive deterioration. The observed behaviour is consistent with the expected statistical false-positive rate of PractRand.
 
