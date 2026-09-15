@@ -19,7 +19,8 @@
  *  option -low32:  write on stdout the lowest 32 bit instead full 64 bit
  *  option -mid32:  write on stdout the middle 32 bit instead full 64 bit
  *  option -high32: write on stdout the highest 32 bit instead full 64 bit
- *  option -reverse: reverse bit
+ *  option -bitreverse
+ *  option -bytereverse
  *
  */
 
@@ -50,13 +51,13 @@ void usage(void)
 	printf("\n");
 	printf("      sirius64gen           Print help\n");
 	printf("      sirius64gen -r        Random seed (print value on stderr)\n");
-	printf("      sirius64gen <seed>    Seed must be non-zero\n");
+	printf("      sirius64gen <seed>\n");
 	printf("\n");
 	printf("option -low32: write on stdout the lowest 32 bit instead full 64 bit\n");
 	printf("option -mid32:  write on stdout the middle 32 bit instead full 64 bit\n");
 	printf("option -high32: write on stdout the highest 32 bit instead full 64 bit\n");
-	printf("option -bitreverse: reverse bit\n");
-	printf("option -bytereverse: reverse byte\n");
+	printf("option -bitreverse\n");
+	printf("option -bytereverse\n");
 }
 
 // Return 1 id str a uint64_t, 0 else
