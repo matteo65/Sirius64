@@ -243,6 +243,7 @@ This table displays the breakdown of p-values ​​close to 1 (top) and close t
 |05|123123123123123123  | 2GB: BCFN(2+9,13-5U) R= +13.7 p = 1.5e-5 unusual|
 |06|                    |                  |
 |07|0x5555555555555555  | [Low4/64]Gap-16:A R= +5.7 p = 4.3e-4 unusual|
+|08|0xAAAAAAAAAAAAAAAA  | -                |
 
 No failures or suspicious results were observed. Three isolated "unusual" p-values appeared across the entire test campaign, all at different seeds and data volumes, with no recurrence or progressive deterioration. The observed behaviour is consistent with the expected statistical false-positive rate of PractRand.
 
