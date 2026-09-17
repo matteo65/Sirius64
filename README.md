@@ -211,7 +211,7 @@ This table displays the breakdown of p-values ​​close to 1 (top) and close t
 **No reproducible weakness was observed in this campaign.**
 
 ## Deep Campaign
-- 12 independent `RNG_test` runs + 7 runs on reversed bit
+- 15 independent `RNG_test` runs + 8 runs on reversed bit
 - Each run covered the range from **1 GB to 64 TB**.
 - Designed to detect weaknesses that may emerge only at very large output volumes.
 - Output files available on [test_practrand/](https://github.com/matteo65/Sirius64/blob/main/test_practrand/)
@@ -230,8 +230,9 @@ This table displays the breakdown of p-values ​​close to 1 (top) and close t
 |10|10659961338205357269| -               |
 |11|0                   | -               |
 |12|UINT64_MAX          | 128 GB: FPF/16:all p-value = 4.7e-4 unusual<br>16 TB: DC6-9x1Bytes-1 p-value = 1-3.4e-3 unusual|
-|13|                    |                  |
-|14|2                   |64 GB: [Low4/64]DC6-9x1Bytes-1 R=-7.0 p = 1-1.5e-4 mildly suspicious|
+|13|1                   | 32 TB:  DC6-9x1Bytes-1 R = +5.2 p = 2.7e-3 unusual|
+|14|2                   | 64 GB: [Low4/64]DC6-9x1Bytes-1 R=-7.0 p = 1-1.5e-4 mildly suspicious|
+|15|                    |                 |
 
 ### Bit reverse
 |# |         Seed       | Anomalies       |
