@@ -242,7 +242,7 @@ This table displays the breakdown of p-values ​​close to 1 (top) and close t
 |03|9876543210          | -                |
 |04|111222333444555666  | 256GB: [Low1/64]BCFN(2+0,13-0U) p-value = 6.4e-4 unusual<br>32TB: [Low4/64]BCFN(2+0,13-0U) p-value = 1-1.4e-4 unusual|
 |05|123123123123123123  | 2GB: BCFN(2+9,13-5U) R= +13.7 p = 1.5e-5 unusual|
-|06|                    |                  |
+|06|0                   | -                |
 |07|0x5555555555555555  | [Low4/64]Gap-16:A R= +5.7 p = 4.3e-4 unusual|
 |08|0xAAAAAAAAAAAAAAAA  | -                |
 
