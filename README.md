@@ -108,7 +108,7 @@ Total PractRand reports: **200**
 Reports without anomalies: **90**  
 Reports with anomalies: **110**  
 Total Test Stages: **2200**  
-Total Tests: **646200**  
+Total Tests: **70800**  
 
 ### Anomaly Counting
 |Anomaly|    #| Percentage|Min p-value|Max p-value|
