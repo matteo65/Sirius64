@@ -113,9 +113,9 @@ Total Tests: **70800**
 ### Anomaly Counting
 |Anomaly|    #| Percentage|Min p-value|Max p-value|
 |-------|-----|----------|---|---|
-|unusual|147|0.0227%|3.9e-6|1 - 3.0e-5|
-|mildly suspicious|9|0.0014%|3.2e-5|1 - 2.4e-5|
-|suspicious|1|0.0002%|1 - 2.5e-5|1 - 2.5e-5|
+|unusual|147|0.208%|3.9e-6|1 - 3.0e-5|
+|mildly suspicious|9|0.013%|3.2e-5|1 - 2.4e-5|
+|suspicious|1|0.0014%|1 - 2.5e-5|1 - 2.5e-5|
 |very suspicious|0|0%|-|-|
 |FAIL|0|0%|-|-|
 |**Total**|**157**|**0.0243%**|-|-|
