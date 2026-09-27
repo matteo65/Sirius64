@@ -118,7 +118,7 @@ Total Tests: **70800**
 |suspicious|1|0.0014%|1 - 2.5e-5|1 - 2.5e-5|
 |very suspicious|0|0%|-|-|
 |FAIL|0|0%|-|-|
-|**Total**|**157**|**0.0243%**|-|-|
+|**Total**|**157**|**0.22%**|-|-|
 
 ### Anomaly for Test Stage
 |Test Stage|Unusual|Mildly Suspicious|Suspicious|Very Suspicious|FAIL|**Total**|
