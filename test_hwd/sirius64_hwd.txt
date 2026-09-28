@@ -1174,3 +1174,15 @@ processed 1.25e+16 bytes in 3.88e+06 seconds (3.224 GB/s, 11.61 TB/h). Sat Sep 1
 p = 0.928
 ------
 
+mix3 extreme = 1.72937 (sig = 00000200) weight 1 (16), p-value = 0.753
+mix3 extreme = 2.76535 (sig = 20002000) weight 2 (112), p-value = 0.472
+mix3 extreme = 2.68020 (sig = 00011200) weight 3 (448), p-value = 0.963
+mix3 extreme = 3.08574 (sig = 01200201) weight 4 (1120), p-value = 0.897
+mix3 extreme = 3.71375 (sig = 01112011) weight >=5 (4864), p-value = 0.63
+bits per word = 64 (analyzing bits); min category p-value = 0.472
+
+processed 1.5e+16 bytes in 4.69e+06 seconds (3.201 GB/s, 11.52 TB/h). Mon Sep 28 15:47:38 2026
+
+p = 0.959
+------
+
