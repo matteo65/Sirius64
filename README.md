@@ -472,8 +472,7 @@ For a perfectly random generator, the residual values are expected to follow a u
 |[1.0e-5, 1.0e-4)|13|**8.6**|
 |[1.0e-6, 1.0e-5)|1|**0.9**|
 |[1.0e-7, 1.0e-6)|0|**0.1**|
-|[1.0e-8, 1.0e-7)|0|**0.0**|
-|[0, 1.0e-7)     |0|**0.0**|
+|[0,      1.0e-7)|0|**0.0**|
 |**Total**       |**104**|**96.0**|
 
 ### Top/Bottom p-value distribuition
