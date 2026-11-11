@@ -18,6 +18,7 @@
  * xoshiro    Public Domain by D.Blackman and S.Vigna
  * xoroshiro  Public Domain by D.Blackman and S.Vigna
  * pgc        Copyright by by Melissa O'Neill
+ * sfc64      Copyright by Chris Doty-Humphrey
  *
  */ 
  
@@ -286,6 +287,21 @@ uint64_t wyrand_a_par(void)
 	return lo ^ hi;
 } 
 
+///////////// sfc64
+uint64_t sfc64(void)
+{
+	static uint64_t state[4] = {
+		0x123456789ABCDEF0ULL, 0xFEDCBA9876543210ULL,
+		0xAABBCCDDEEFF0011ULL, 0x1122334455667788ULL
+	};
+
+    const uint64_t tmp = state[0] + state[1] + state[3]++;
+    state[0] = state[1] ^ (state[1] >> 11);
+    state[1] = state[2] + (state[2] << 3);
+    state[2] = ((state[2] << 24) | (state[2] >> 40)) + tmp;
+    return tmp;
+}
+
 int main(void)
 {
 	prng_struct_t prng[] = {
@@ -305,7 +321,9 @@ int main(void)
 		{romutrio, "romutrio", UINT64_MAX},
 		
 		{pgc64_dxsm, "Pgc64 DXSM", UINT64_MAX},
-		{pgc64_rxs_m_xs, "Pgc64 RXS-M-XS", UINT64_MAX}
+		{pgc64_rxs_m_xs, "Pgc64 RXS-M-XS", UINT64_MAX},
+
+		{sfc64, "Sfc64", UINT64_MAX}
 	};
 	
 	printf("PRNG Benchmark - Copyright(C) Matteo Zapparoli\n");
