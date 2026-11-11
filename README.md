@@ -548,7 +548,7 @@ The combined evidence suggests no detectable statistical weaknesses within the t
 ### Characteristics of the computer where the benchmark was run
 **OS:** Ubuntu 24.04.4 LTS  
 **Kernel:** Linux 6.6.87.2-microsoft-standard-WSL2  
-**gcc:** (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0  
+**gcc:** (Ubuntu 14.2.0-4ubuntu2~24.04.1) 14.2.0  
 **CPU:**  
 Architecture: x86_64  
 CPU op-mode(s): 32-bit, 64-bit  
