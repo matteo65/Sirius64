@@ -67,6 +67,7 @@ The [tools/](https://github.com/matteo65/Sirius64/blob/main/tools) directory con
 |testu01_sirius64_low32.c|Run the TestU01 test on the low 32 bits|
 |hwd.c prngs_hwd.c |Run Hamming–Weight Dependencies Test|
 |benchmark.c |Run benchmark|
+|sirius_vs_xoshiro.c|Benchmark Sirius64 vs Xoshiro256++|
 
 ## SmokeRand v.0.48-gcc-linux Tests
 We decided to use [SmokeRand](https://github.com/alvoskov/SmokeRand) (**v. 0.48-gcc-linux64**) as an initial test tool rather than Dieharder as it is a new tool that we found to be more reliable and accurate.  
@@ -578,3 +579,18 @@ Model: 197
 Sirius64 achieves performance comparable to SplitMix64, requiring only 5.0 CPU cycles for each 64-bit value generated. Benchmark results show that Sirius64 performs virtually equally well to SplitMix64 and is significantly faster than all others.  
 Please note that SplitMix64 is not statistically valid as it fails the 64-bit collisions test.  
 The benchmark was run on several other computers, and in some cases the rankings changed, but sirius64 is still the fastest of all statistically valid generators.  
+
+### Sirius64 vs Xoshiro256++
+
+A simple performance comparison against xoshiro256++ is included in the repository (tools/sirius_vs_xoshiro.c).
+
+On the test machine, compiled with GCC and Clang using -O3 -march=native, the measured throughput was approximately:
+
+| Generator   | Cycles / 64-bit Output|
+|-------------|-----------------------|
+|sirius64     | ~2.0 - 2.2|
+|xoshiro256++ | ~2.4 - 2.6|
+
+In all tested configurations Sirius64 was consistently faster while requiring only a 64-bit state, compared to the 256-bit state used by xoshiro256++.
+
+The exact numbers will vary across processors and compilers, but the relative ordering remained unchanged throughout testing.
