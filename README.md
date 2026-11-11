@@ -11,19 +11,20 @@ uint64_t sirius64(uint64_t *state)
 }
 ```
 ## PRNG Comparison Table
-| Generator       | State | Relative Speed |Practrand|TestU01|Collision 64|
-|-----------------|-------|----------------|---------|-------|------------|
-| splitmix64      |  64   | 100.0%         |  Yes    |  Yes  |    No      |
-| **sirius64**    |**64** |  **99.6%**     |**Yes**  |**Yes**|  **Yes**   |
-| wyrand a_par    |  64   |  95.9%         |  Yes    |  Yes  |    Yes     |
-| wyrand 4.3      |  64   |  94.8%         |  Yes    |  Yes  |    No      |
-| romutrio        | 192   |  85.3%         |  Yes    |  Yes  |    Yes     |
-| xoshiro256**    | 256   |  81.0%         |  Yes    |  Yes  |    Yes     |
-| xoroshiro128aox | 256   |  80.1%         |  Yes    |  Yes  |    Yes     |
-| xoroshiro128++  | 128   |  79.2%         |  Yes    |  Yes  |    Yes     |
-| xoshiro256++    | 256   |  78.7%         |  Yes    |  Yes  |    Yes     |
-| pgc64 RXS-M-XS  |  64   |  72.6%         |  Yes    |  Yes  |    No      |
-| pgc64 DXSM      | 128   |  57.8%         |  Yes    |  Yes  |    Yes     |
+| Generator         |State | Relative Speed |Practrand|TestU01|Collision 64|
+|-------------------|------| ---------------|---------|-------|------------|
+| SplitMix64        |  64  | 100.0%         |  Yes    |  Yes  |    No      |
+| Sirius64          |**64**|**99.2%**       |**Yes**  |**Yes**|  **Yes**   |
+| wyrand a_par      |  64  |  94.5%         |  Yes    |  Yes  |    Yes     |
+| wyrand v.4.3      |  64  |  93.7%         |  Yes    |  Yes  |    No      |
+| romutrio          | 192  |  84.4%         |  Yes    |  Yes  |    Yes     |
+| xoshiro256**      | 256  |  81.5%         |  Yes    |  Yes  |    Yes     |
+| Sfc64             | 256  |  80.8%         |  Yes    |  Yes  |    Yes     |
+| xoshiro256++      | 256  |  79.3%         |  Yes    |  Yes  |    Yes     |
+| xoroshiro128aox   | 128  |  78.7%         |  Yes    |  Yes  |    Yes     |
+| xoroshiro128++    | 128  |  78.1%         |  Yes    |  Yes  |    Yes     |
+| Pgc64 RXS-M-XS    |  64  |  71.1%         |  Yes    |  Yes  |    No      |
+| Pgc64 DXSM        | 128  |  57.0%         |  Yes    |  Yes  |    Yes     |
 
 **Sirius64 is the fastest of all statistically valid generators in this table**
 
@@ -561,17 +562,18 @@ Model: 197
 
 | Generator         | Cycles/64-bit | Relative Speed |
 |-------------------|---------------|----------------|
-| SplitMix64        | 4.985         | 100.0%         |
-| Sirius64          | 5.007         |  99.6%         |
-| wyrand a_par      | 5.201         |  95.9%         |
-| wyrand v.4.3      | 5.259         |  94.8%         |
-| romutrio          | 5.842         |  85.3%         |
-| xoshiro256**      | 6.158         |  81.0%         |
-| xoroshiro128aox   | 6.227         |  80.1%         |
-| xoroshiro128++    | 6.295         |  79.2%         |
-| xoshiro256++      | 6.331         |  78.7%         |
-| Pgc64 RXS-M-XS    | 6.870         |  72.6%         |
-| Pgc64 DXSM        | 8.623         |  57.8%         |
+| SplitMix64        | 4.894         | 100.0%         |
+| Sirius64          | 4.931         |  99.2%         |
+| wyrand a_par      | 5.179         |  94.5%         |
+| wyrand v.4.3      | 5.221         |  93.7%         |
+| romutrio          | 5.799         |  84.4%         |
+| xoshiro256**      | 6.007         |  81.5%         |
+| Sfc64             | 6.058         |  80.8%         |
+| xoshiro256++      | 6.169         |  79.3%         |
+| xoroshiro128aox   | 6.218         |  78.7%         |
+| xoroshiro128++    | 6.264         |  78.1%         |
+| Pgc64 RXS-M-XS    | 6.878         |  71.1%         |
+| Pgc64 DXSM        | 8.593         |  57.0%         |
 
 Sirius64 achieves performance comparable to SplitMix64, requiring only 5.0 CPU cycles for each 64-bit value generated. Benchmark results show that Sirius64 performs virtually equally well to SplitMix64 and is significantly faster than all others.  
 Please note that SplitMix64 is not statistically valid as it fails the 64-bit collisions test.  
