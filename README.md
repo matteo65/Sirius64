@@ -11,22 +11,20 @@ uint64_t sirius64(uint64_t *state)
 }
 ```
 ## PRNG Comparison Table
-| Generator         |State | Relative Speed |Practrand|TestU01|Collision 64|
-|-------------------|------| ---------------|---------|-------|------------|
-| SplitMix64        |  64  | 100.0%         |  Yes    |  Yes  |    No      |
-| Sirius64          |**64**|**99.2%**       |**Yes**  |**Yes**|  **Yes**   |
-| wyrand a_par      |  64  |  94.5%         |  Yes    |  Yes  |    Yes     |
-| wyrand v.4.3      |  64  |  93.7%         |  Yes    |  Yes  |    No      |
-| romutrio          | 192  |  84.4%         |  Yes    |  Yes  |    Yes     |
-| xoshiro256**      | 256  |  81.5%         |  Yes    |  Yes  |    Yes     |
-| Sfc64             | 256  |  80.8%         |  Yes    |  Yes  |    Yes     |
-| xoshiro256++      | 256  |  79.3%         |  Yes    |  Yes  |    Yes     |
-| xoroshiro128aox   | 128  |  78.7%         |  Yes    |  Yes  |    Yes     |
-| xoroshiro128++    | 128  |  78.1%         |  Yes    |  Yes  |    Yes     |
-| Pgc64 RXS-M-XS    |  64  |  71.1%         |  Yes    |  Yes  |    No      |
-| Pgc64 DXSM        | 128  |  57.0%         |  Yes    |  Yes  |    Yes     |
-
-**Sirius64 is the fastest of all statistically valid generators in this table**
+| Generator         |State |Practrand|TestU01|Collision 64|
+|-------------------|------|---------|-------|------------|
+| SplitMix64        |  64  |  Yes    |  Yes  |    No      |
+| Sirius64          |**64**|**Yes**  |**Yes**|  **Yes**   |
+| wyrand a_par      |  64  |  Yes    |  Yes  |    Yes     |
+| wyrand v.4.3      |  64  |  Yes    |  Yes  |    No      |
+| romutrio          | 192  |  Yes    |  Yes  |    Yes     |
+| xoshiro256**      | 256  |  Yes    |  Yes  |    Yes     |
+| Sfc64             | 256  |  Yes    |  Yes  |    Yes     |
+| xoshiro256++      | 256  |  Yes    |  Yes  |    Yes     |
+| xoroshiro128aox   | 128  |  Yes    |  Yes  |    Yes     |
+| xoroshiro128++    | 128  |  Yes    |  Yes  |    Yes     |
+| Pgc64 RXS-M-XS    |  64  |  Yes    |  Yes  |    No      |
+| Pgc64 DXSM        | 128  |  Yes    |  Yes  |    Yes     |
 
 # _Labor Omnia Vincit_
 This project is the culmination of more than six years of research dedicated to the design, analysis, and implementation of novel pseudorandom number generators and hash functions. During this journey, I designed and tested dozens of original algorithms, wrote thousands of lines of experimental code, and performed extensive validation against both theoretical expectations and empirical benchmarks.  
@@ -41,11 +39,7 @@ I hope that the work presented here may contribute, even in a small way, to the 
 
 ## Summary
 
-**Sirius64 represents a major advancement in the landscape of non-cryptographic pseudo-random number generators (PRNGs), successfully reconciling extreme throughput with rigorous statistical quality.**  
-
 In contrast to traditional high-speed generators that often exhibit structural vulnerabilities under prolonged empirical testing, Sirius64 demonstrates flawless empirical behavior. It successfully clears all standard comprehensive testing suites, including deep **PractRand** evaluations and strict **collision tests**, proving capable of generating ideal, indistinguishable white noise.  
-
-Consequently, **until proven otherwise, Sirius64 stands as the fastest statistically sound PRNG in existence**, delivering near-optimal CPU cycle efficiency without compromising statistical integrity.   
 
 This unique combination makes it an ideal candidate for high-performance computing, large-scale Monte Carlo simulations, and environments where execution speed and absolute statistical reliability are both critical constraints.
 
@@ -545,52 +539,6 @@ Sirius64 has successfully passed extensive empirical validation including TestU0
 The combined evidence suggests no detectable statistical weaknesses within the tested range.  
 
 ## Benchmark
-### Characteristics of the computer where the benchmark was run
-**OS:** Ubuntu 24.04.4 LTS  
-**Kernel:** Linux 6.6.87.2-microsoft-standard-WSL2  
-**gcc:** (Ubuntu 14.2.0-4ubuntu2~24.04.1) 14.2.0  
-**CPU:**  
-Architecture: x86_64  
-CPU op-mode(s): 32-bit, 64-bit  
-Address sizes: 46 bits physical, 48 bits virtual  
-Byte Order: Little Endian  
-CPU(s): 16  
-On-line CPU(s) list:  0-15    
-Vendor ID:  GenuineIntel  
-Model name:  Intel(R) Core(TM) Ultra 7 265H  
-CPU family: 6  
-Model: 197  
+Work in progress...
 
-| Generator         | Cycles/64-bit | Relative Speed |
-|-------------------|---------------|----------------|
-| SplitMix64        | 4.894         | 100.0%         |
-| Sirius64          | 4.931         |  99.2%         |
-| wyrand a_par      | 5.179         |  94.5%         |
-| wyrand v.4.3      | 5.221         |  93.7%         |
-| romutrio          | 5.799         |  84.4%         |
-| xoshiro256**      | 6.007         |  81.5%         |
-| Sfc64             | 6.058         |  80.8%         |
-| xoshiro256++      | 6.169         |  79.3%         |
-| xoroshiro128aox   | 6.218         |  78.7%         |
-| xoroshiro128++    | 6.264         |  78.1%         |
-| Pgc64 RXS-M-XS    | 6.878         |  71.1%         |
-| Pgc64 DXSM        | 8.593         |  57.0%         |
 
-Sirius64 achieves performance comparable to SplitMix64, requiring only 5.0 CPU cycles for each 64-bit value generated. Benchmark results show that Sirius64 performs virtually equally well to SplitMix64 and is significantly faster than all others.  
-Please note that SplitMix64 is not statistically valid as it fails the 64-bit collisions test.  
-The benchmark was run on several other computers, and in some cases the rankings changed, but sirius64 is still the fastest of all statistically valid generators.  
-
-### Sirius64 vs Xoshiro256++
-
-A simple performance comparison against xoshiro256++ is included in the repository (tools/sirius_vs_xoshiro.c).
-
-On the test machine, compiled with GCC and Clang using -O3 -march=native, the measured throughput was approximately:
-
-| Generator   | Cycles / 64-bit Output|
-|-------------|-----------------------|
-|sirius64     | ~2.0 - 2.2|
-|xoshiro256++ | ~2.4 - 2.6|
-
-In all tested configurations Sirius64 was consistently faster while requiring only a 64-bit state, compared to the 256-bit state used by xoshiro256++.
-
-The exact numbers will vary across processors and compilers, but the relative ordering remained unchanged throughout testing.
